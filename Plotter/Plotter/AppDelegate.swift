@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FRDStravaClient
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        FRDStravaClient.sharedInstance().initialize(withClientId: 22970, clientSecret: "4ddee4f49fa62bfd7d88e2b129ab283114b1c72c")
+        
+        return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        print("URL scheme: \(String(describing: url.scheme))")
+        print("URL: \(url.absoluteString)")
+        if url.absoluteString.hasPrefix("plotter://com.scottpchow.Plotter/authorization") {
+            FRDStravaClient.sharedInstance().parseStravaAuthCallback(url, withSuccess: { (stateInfo, code) in
+                FRDStravaClient.sharedInstance().exchangeToken(forCode: code, success: { (response) in
+//                    print(response.debugDescription)
+                }, failure: { (error) in
+                    print(error?.localizedDescription ?? "Some error occured in exchanging the token.")
+                })
+            }) { (stateInfo, code) in
+                print("FRDSTRAVACLIENT: Failure in parseStravaAuthCallback")
+            }
+        }
+        
         return true
     }
 
