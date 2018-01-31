@@ -59,7 +59,57 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+            <point key="canvasLocation" x="100" y="133"/>
+        </scene>
+        <!--Activity List View Controller-->
+        <scene sceneID="Anx-PZ-fSf">
+            <objects>
+                <viewController storyboardIdentifier="ActivityListVC" id="aWL-aK-fIW" customClass="ActivityListViewController" customModule="Plotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qtd-ar-hWh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Plotter, User." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1X-1L-x1P">
+                                <rect key="frame" x="91.5" y="354" width="192.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.89411764709999997" green="0.89411764709999997" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32271177029999998" green="0.32271177029999998" blue="0.32271177029999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="l1X-1L-x1P" firstAttribute="centerX" secondItem="92g-aD-gKr" secondAttribute="centerX" id="6Tr-jl-Xjp"/>
+                            <constraint firstItem="l1X-1L-x1P" firstAttribute="centerY" secondItem="92g-aD-gKr" secondAttribute="centerY" id="oBU-tB-qeD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="92g-aD-gKr"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HXF-bT-Ozg"/>
+                    <connections>
+                        <outlet property="successLabel" destination="l1X-1L-x1P" id="EGk-1A-khJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="elw-OW-HPp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1754" y="133"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="efO-R7-X7Y">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kfg-Ku-e7Y" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="d1M-bx-smQ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.32152998447418213" green="0.32159090042114258" blue="0.32152613997459412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="aWL-aK-fIW" kind="relationship" relationship="rootViewController" id="ecG-6e-h7L"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vPq-15-Xgh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="931.20000000000005" y="134.93253373313345"/>
         </scene>
     </scenes>
 </document>

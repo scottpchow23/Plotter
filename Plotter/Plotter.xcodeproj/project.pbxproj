@@ -13,6 +13,9 @@
 		B8BA3112201EAAE2006D4772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8BA3111201EAAE2006D4772 /* Assets.xcassets */; };
 		B8BA3115201EAAE2006D4772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8BA3113201EAAE2006D4772 /* LaunchScreen.storyboard */; };
 		B8BA311D201EBB1B006D4772 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BA311C201EBB1B006D4772 /* LoginViewController.swift */; };
+		B8C0618E201EE77600268E44 /* ActivityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C0618D201EE77600268E44 /* ActivityListViewController.swift */; };
+		B8C06190201EF0B100268E44 /* StravaAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C0618F201EF0B100268E44 /* StravaAuth.swift */; };
+		B8C06192201FA38200268E44 /* StravaActivitiesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C06191201FA38200268E44 /* StravaActivitiesService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		B8BA3114201EAAE2006D4772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8BA3116201EAAE2006D4772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8BA311C201EBB1B006D4772 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B8C0618D201EE77600268E44 /* ActivityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListViewController.swift; sourceTree = "<group>"; };
+		B8C0618F201EF0B100268E44 /* StravaAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StravaAuth.swift; sourceTree = "<group>"; };
+		B8C06191201FA38200268E44 /* StravaActivitiesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StravaActivitiesService.swift; sourceTree = "<group>"; };
 		F4FC1AD13916DDAFF36F733F /* Pods-Plotter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plotter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plotter/Pods-Plotter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +73,9 @@
 				B8BA3113201EAAE2006D4772 /* LaunchScreen.storyboard */,
 				B8BA3116201EAAE2006D4772 /* Info.plist */,
 				B8BA311C201EBB1B006D4772 /* LoginViewController.swift */,
+				B8C0618D201EE77600268E44 /* ActivityListViewController.swift */,
+				B8C0618F201EF0B100268E44 /* StravaAuth.swift */,
+				B8C06191201FA38200268E44 /* StravaActivitiesService.swift */,
 			);
 			path = Plotter;
 			sourceTree = "<group>";
@@ -221,7 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C0618E201EE77600268E44 /* ActivityListViewController.swift in Sources */,
+				B8C06192201FA38200268E44 /* StravaActivitiesService.swift in Sources */,
 				B8BA311D201EBB1B006D4772 /* LoginViewController.swift in Sources */,
+				B8C06190201EF0B100268E44 /* StravaAuth.swift in Sources */,
 				B8BA310B201EAAE2006D4772 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

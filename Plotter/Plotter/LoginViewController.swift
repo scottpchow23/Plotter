@@ -18,13 +18,43 @@ class LoginViewController: UIViewController {
         
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        checkStatus()
+    }
+    
+    func checkStatus() {
+        stravaLoginButton.isEnabled = false
+        print("Starting check")
+        StravaAuth.checkToken(with: { (athlete) in
+            print("Got athelete?")
+            if let athlete = athlete {
+                self.skipLogin(athlete: athlete)
+            } else {
+                self.stravaLoginButton.isEnabled = true
+            }
+        }) { (error) in
+            print("Got error: \(String(describing: error?.localizedDescription))")
+            self.stravaLoginButton.isEnabled = true
+        }
+    }
+    
+    func skipLogin(athlete: StravaAthlete) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let activityListVC = storyboard.instantiateViewController(withIdentifier: "ActivityListVC") as! ActivityListViewController
+        
+        activityListVC.athlete = athlete
+        
+        UIView.transition(from: self.view, to: activityListVC.view, duration: 0.3, options: [.transitionCrossDissolve], completion: { (_) in
+            UIApplication.shared.keyWindow?.rootViewController = activityListVC
+        })
+    }
+    
     func setUpButton() {
         stravaLoginButton.layer.cornerRadius = 10
     }
     
     @IBAction func stravaLoginTUI(_ sender: Any) {
         let callbackURL = URL(string: "plotter://com.scottpchow.Plotter/authorization")
-//        let stateInfo = ""
         FRDStravaClient.sharedInstance().authorize(withCallbackURL: callbackURL, stateInfo: nil)
     }
 

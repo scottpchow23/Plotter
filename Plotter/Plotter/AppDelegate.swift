@@ -26,18 +26,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("URL scheme: \(String(describing: url.scheme))")
         print("URL: \(url.absoluteString)")
         if url.absoluteString.hasPrefix("plotter://com.scottpchow.Plotter/authorization") {
-            FRDStravaClient.sharedInstance().parseStravaAuthCallback(url, withSuccess: { (stateInfo, code) in
-                FRDStravaClient.sharedInstance().exchangeToken(forCode: code, success: { (response) in
-//                    print(response.debugDescription)
-                }, failure: { (error) in
-                    print(error?.localizedDescription ?? "Some error occured in exchanging the token.")
-                })
-            }) { (stateInfo, code) in
-                print("FRDSTRAVACLIENT: Failure in parseStravaAuthCallback")
-            }
+            StravaAuth.login(with: url, success: { (athlete) in
+                if let athlete = athlete {
+                    self.transitionPastLogin(athlete: athlete)
+                }
+            }, failure: { (error) in
+                
+            })
         }
         
+        
         return true
+    }
+    
+    
+    
+    func persistAccessToken(accessToken: String) {
+        UserDefaults.standard.set(accessToken, forKey: "accessToken")
+    }
+    
+    func transitionPastLogin(athlete: StravaAthlete) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let activityListVC = storyboard.instantiateViewController(withIdentifier: "ActivityListVC") as! ActivityListViewController
+        
+        activityListVC.athlete = athlete
+        
+        UIView.transition(from: (self.window?.rootViewController?.view!)!, to: activityListVC.view, duration: 0.3, options: [.transitionCrossDissolve], completion: { (_) in
+            self.window?.rootViewController = activityListVC
+        })
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
