@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13987E3CCC51C3F54F0FF44A /* Pods_Plotter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E83A989FD9752BDA9B94305 /* Pods_Plotter.framework */; };
+		B84147BF202D6A9100130A4A /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84147BE202D6A9100130A4A /* ActivityTableViewCell.swift */; };
 		B8BA310B201EAAE2006D4772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BA310A201EAAE2006D4772 /* AppDelegate.swift */; };
 		B8BA3110201EAAE2006D4772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8BA310E201EAAE2006D4772 /* Main.storyboard */; };
 		B8BA3112201EAAE2006D4772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8BA3111201EAAE2006D4772 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		0E83A989FD9752BDA9B94305 /* Pods_Plotter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plotter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DCB68337CBC337C68B0F0D /* Pods-Plotter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plotter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plotter/Pods-Plotter.release.xcconfig"; sourceTree = "<group>"; };
+		B84147BE202D6A9100130A4A /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
 		B8BA3107201EAAE2006D4772 /* Plotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BA310A201EAAE2006D4772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8BA310F201EAAE2006D4772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,6 +48,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B84147C0202D6A9700130A4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B84147BE202D6A9100130A4A /* ActivityTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B84147C1202D6AA400130A4A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B8BA311C201EBB1B006D4772 /* LoginViewController.swift */,
+				B8C0618D201EE77600268E44 /* ActivityListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B84147C2202D6AAB00130A4A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B8C06191201FA38200268E44 /* StravaActivitiesService.swift */,
+				B8C0618F201EF0B100268E44 /* StravaAuth.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B84147C3202D6AD400130A4A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B8BA310E201EAAE2006D4772 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		B8BA30FE201EAAE2006D4772 = {
 			isa = PBXGroup;
 			children = (
@@ -67,15 +103,14 @@
 		B8BA3109201EAAE2006D4772 /* Plotter */ = {
 			isa = PBXGroup;
 			children = (
+				B84147C3202D6AD400130A4A /* Storyboards */,
+				B84147C2202D6AAB00130A4A /* Services */,
+				B84147C1202D6AA400130A4A /* Controllers */,
+				B84147C0202D6A9700130A4A /* Views */,
 				B8BA310A201EAAE2006D4772 /* AppDelegate.swift */,
-				B8BA310E201EAAE2006D4772 /* Main.storyboard */,
 				B8BA3111201EAAE2006D4772 /* Assets.xcassets */,
 				B8BA3113201EAAE2006D4772 /* LaunchScreen.storyboard */,
 				B8BA3116201EAAE2006D4772 /* Info.plist */,
-				B8BA311C201EBB1B006D4772 /* LoginViewController.swift */,
-				B8C0618D201EE77600268E44 /* ActivityListViewController.swift */,
-				B8C0618F201EF0B100268E44 /* StravaAuth.swift */,
-				B8C06191201FA38200268E44 /* StravaActivitiesService.swift */,
 			);
 			path = Plotter;
 			sourceTree = "<group>";
@@ -232,6 +267,7 @@
 			files = (
 				B8C0618E201EE77600268E44 /* ActivityListViewController.swift in Sources */,
 				B8C06192201FA38200268E44 /* StravaActivitiesService.swift in Sources */,
+				B84147BF202D6A9100130A4A /* ActivityTableViewCell.swift in Sources */,
 				B8BA311D201EBB1B006D4772 /* LoginViewController.swift in Sources */,
 				B8C06190201EF0B100268E44 /* StravaAuth.swift in Sources */,
 				B8BA310B201EAAE2006D4772 /* AppDelegate.swift in Sources */,

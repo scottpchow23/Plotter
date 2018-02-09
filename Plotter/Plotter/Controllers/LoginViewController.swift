@@ -40,12 +40,10 @@ class LoginViewController: UIViewController {
     
     func skipLogin(athlete: StravaAthlete) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let activityListVC = storyboard.instantiateViewController(withIdentifier: "ActivityListVC") as! ActivityListViewController
-        
-        activityListVC.athlete = athlete
-        
-        UIView.transition(from: self.view, to: activityListVC.view, duration: 0.3, options: [.transitionCrossDissolve], completion: { (_) in
-            UIApplication.shared.keyWindow?.rootViewController = activityListVC
+        let navVC = storyboard.instantiateViewController(withIdentifier: "NavController")
+                
+        UIView.transition(from: self.view, to: navVC.view, duration: 0.3, options: [.transitionCrossDissolve], completion: { (_) in
+            UIApplication.shared.keyWindow?.rootViewController = navVC
         })
     }
     

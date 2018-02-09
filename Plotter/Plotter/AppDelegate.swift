@@ -47,12 +47,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func transitionPastLogin(athlete: StravaAthlete) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let activityListVC = storyboard.instantiateViewController(withIdentifier: "ActivityListVC") as! ActivityListViewController
-        
-        activityListVC.athlete = athlete
-        
-        UIView.transition(from: (self.window?.rootViewController?.view!)!, to: activityListVC.view, duration: 0.3, options: [.transitionCrossDissolve], completion: { (_) in
-            self.window?.rootViewController = activityListVC
+        let navVC = storyboard.instantiateViewController(withIdentifier: "NavController")
+                
+        UIView.transition(from: (self.window?.rootViewController?.view!)!, to: navVC.view, duration: 0.3, options: [.transitionCrossDissolve], completion: { (_) in
+            self.window?.rootViewController = navVC
         })
     }
 

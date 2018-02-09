@@ -12,12 +12,13 @@ import FRDStravaClient
 class StravaAuth {
     static let shared = StravaAuth()
     static let ACCESS_TOKEN = "accessToken"
-    
+    static var currentAthlete: StravaAthlete?
     static func login(with url:URL, success: @escaping (StravaAthlete?) -> (), failure: @escaping (Error?)->()) {
         FRDStravaClient.sharedInstance().parseStravaAuthCallback(url, withSuccess: { (stateInfo, code) in
             FRDStravaClient.sharedInstance().exchangeToken(forCode: code, success: { (response) in
                 if let response = response {
                     UserDefaults.standard.set(response.accessToken, forKey: ACCESS_TOKEN)
+                    currentAthlete = response.athlete
                     success(response.athlete)
                 }
             }, failure: { (error) in
