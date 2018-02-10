@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
+//        let config = StravaConfig(clientId: 22970, clientSecret: "4ddee4f49fa62bfd7d88e2b129ab283114b1c72c", redirectUri: "plotter://com.scottpchow.Plotter/authorization")
         FRDStravaClient.sharedInstance().initialize(withClientId: 22970, clientSecret: "4ddee4f49fa62bfd7d88e2b129ab283114b1c72c")
         
         return true

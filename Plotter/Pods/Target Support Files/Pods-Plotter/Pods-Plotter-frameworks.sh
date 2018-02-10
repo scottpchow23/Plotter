@@ -105,11 +105,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FRDStravaClient/FRDStravaClient.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Polyline/Polyline.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FRDStravaClient/FRDStravaClient.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Polyline/Polyline.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

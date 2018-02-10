@@ -7,5 +7,5 @@ target 'Plotter' do
 
   # Pods for Plotter
   pod 'FRDStravaClient',              '~> 1.0.2'
-
+  pod 'Polyline', '~> 4.0'
 end

@@ -19,6 +19,7 @@ class ActivityListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableViewSetup()
+        
         StravaActivitiesService.shared.getActivities { (activities) in
             self.activities = activities
             self.tableView.reloadData()
@@ -27,12 +28,22 @@ class ActivityListViewController: UIViewController {
     
     func tableViewSetup() {
         tableView.dataSource = self
+        tableView.delegate = self
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 50
     }
+    @IBAction func logoutTUI(_ sender: Any) {
+        StravaAuth.logout()
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let loginVC = storyboard.instantiateViewController(withIdentifier: "LoginVC")
+        
+        UIView.transition(from: (self.navigationController?.view)!, to: loginVC.view, duration: 0.3, options: [.transitionCrossDissolve], completion: { (_) in
+            UIApplication.shared.keyWindow?.rootViewController = loginVC
+        })
+    }
 }
 
-extension ActivityListViewController: UITableViewDataSource {
+extension ActivityListViewController: UITableViewDataSource, UITableViewDelegate {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -43,9 +54,20 @@ extension ActivityListViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ActivityCell") as! ActivityTableViewCell
-        cell.titleLabel.text = activities[indexPath.row].name
-        cell.distanceLabel.text = String(format: "%.1f mi", (activities[indexPath.row].distance/1609.34))
-        cell.dateLabel.text = activities[indexPath.row].startDate.description
+        let activity = activities[indexPath.row]
+        cell.activity = activity
+        cell.distanceLabel.text = String(format: "%.1f mi", (activity.distance/1609.34))
+        cell.dateLabel.text = activity.startDate.description
+        cell.titleLabel.text = activity.name
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let selectedCell = tableView.cellForRow(at: indexPath) as! ActivityTableViewCell
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let destinationVC = storyboard.instantiateViewController(withIdentifier: "ActivityDetailVC") as! ActivityDetailViewController
+        destinationVC.activity = selectedCell.activity
+        self.navigationController?.pushViewController(destinationVC, animated: true)
     }
 }

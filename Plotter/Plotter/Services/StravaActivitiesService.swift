@@ -25,5 +25,6 @@ class StravaActivitiesService {
             }
             completion([StravaActivity]())
         })
+        completion([StravaActivity]())
     }
 }

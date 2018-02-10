@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import FRDStravaClient
 
 class ActivityTableViewCell: UITableViewCell {
     @IBOutlet weak var distanceLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
+    var activity: StravaActivity?
 }
