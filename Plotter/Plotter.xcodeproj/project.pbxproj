@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		13987E3CCC51C3F54F0FF44A /* Pods_Plotter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E83A989FD9752BDA9B94305 /* Pods_Plotter.framework */; };
 		B834A6E4202E59ED00085025 /* ActivityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B834A6E3202E59ED00085025 /* ActivityDetailViewController.swift */; };
+		B834A6E62030199700085025 /* WallpaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B834A6E52030199700085025 /* WallpaperViewController.swift */; };
 		B84147BF202D6A9100130A4A /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84147BE202D6A9100130A4A /* ActivityTableViewCell.swift */; };
 		B8BA310B201EAAE2006D4772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BA310A201EAAE2006D4772 /* AppDelegate.swift */; };
 		B8BA3110201EAAE2006D4772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8BA310E201EAAE2006D4772 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		0E83A989FD9752BDA9B94305 /* Pods_Plotter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plotter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DCB68337CBC337C68B0F0D /* Pods-Plotter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plotter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plotter/Pods-Plotter.release.xcconfig"; sourceTree = "<group>"; };
 		B834A6E3202E59ED00085025 /* ActivityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailViewController.swift; sourceTree = "<group>"; };
+		B834A6E52030199700085025 /* WallpaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperViewController.swift; sourceTree = "<group>"; };
 		B84147BE202D6A9100130A4A /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
 		B8BA3107201EAAE2006D4772 /* Plotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BA310A201EAAE2006D4772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				B8BA311C201EBB1B006D4772 /* LoginViewController.swift */,
 				B8C0618D201EE77600268E44 /* ActivityListViewController.swift */,
 				B834A6E3202E59ED00085025 /* ActivityDetailViewController.swift */,
+				B834A6E52030199700085025 /* WallpaperViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				B8BA311D201EBB1B006D4772 /* LoginViewController.swift in Sources */,
 				B8C06190201EF0B100268E44 /* StravaAuth.swift in Sources */,
 				B8BA310B201EAAE2006D4772 /* AppDelegate.swift in Sources */,
+				B834A6E62030199700085025 /* WallpaperViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

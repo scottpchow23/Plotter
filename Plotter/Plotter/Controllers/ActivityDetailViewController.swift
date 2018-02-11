@@ -17,6 +17,7 @@ class ActivityDetailViewController: UIViewController {
     @IBOutlet weak var framePromptLabel: UILabel!
     @IBOutlet weak var mapView: MKMapView!
     var activity: StravaActivity?
+    var path: CGPath?
     override func viewDidLoad() {
         super.viewDidLoad()
         self.mapView.delegate = self
@@ -27,24 +28,46 @@ class ActivityDetailViewController: UIViewController {
             let region = self.mapView.regionThatFits(visibleRect)
             self.mapView.setRegion(region, animated: true)
         }
+        if let line = updatePath() {
+            mapView.add(line)
+        }
+    }
+    @IBAction func captureTUI(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let wallpaperVC = storyboard.instantiateViewController(withIdentifier: "WallpaperVC") as! WallpaperViewController
+        _ = updatePath()
+        wallpaperVC.path = self.path
+        wallpaperVC.activity = self.activity
+        self.present(wallpaperVC, animated: true, completion: nil)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if framePromptLabel.frame.minY > navigationController?.navigationBar.frame.height ?? 100 {
+            UIView.animate(withDuration: 0.3, delay: 1, options: [.curveEaseOut], animations: {
+                self.mapView.frame = CGRect(x: 0, y: self.framePromptLabel.frame.minY, width: UIScreen.main.bounds.width, height: self.mapView.frame.height + self.framePromptLabel.frame.height)
+                self.framePromptLabel.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 0)
+                
+            }, completion: nil)
+        }
+    }
+    
+    func updatePath() -> MKPolyline? {
         if let activity = activity {
             let polyline = Polyline(encodedPolyline: activity.map.summaryPolyline)
             let mkpolyline = polyline.mkPolyline
             if let line = mkpolyline {
-                mapView.add(line)
+                let mapPoints = line.points()
+                var points = [CGPoint]()
+                for point in 0..<line.pointCount {
+                    let location = MKCoordinateForMapPoint(mapPoints[point])
+                    points.append(mapView.convert(location, toPointTo: view))
+                }
+                print(points)
+                path = UIBezierPath(points: points).cgPath
+                return line
             }
         }
-    }
-    @IBAction func captureTUI(_ sender: Any) {
-        
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        UIView.animate(withDuration: 0.3, delay: 1, options: [.curveEaseOut], animations: {
-            self.mapView.frame = CGRect(x: 0, y: self.framePromptLabel.frame.minY, width: UIScreen.main.bounds.width, height: self.mapView.frame.height + self.framePromptLabel.frame.height)
-            self.framePromptLabel.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 0)
-            
-        }, completion: nil)
+        return nil
     }
 }
 
@@ -59,5 +82,22 @@ extension ActivityDetailViewController: MKMapViewDelegate {
             return polyLineRenderer
         }
         return MKOverlayRenderer()
+    }
+}
+
+extension UIBezierPath {
+    convenience init(points:[CGPoint])
+    {
+        self.init()
+        
+        for (index,aPoint) in points.enumerated()
+        {
+            if index == 0 {
+                self.move(to: aPoint)
+            }
+            else {
+                self.addLine(to: aPoint)
+            }
+        }
     }
 }
