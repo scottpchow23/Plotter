@@ -10,5 +10,5 @@ An iOS App that makes wall papers out of Strava Activities
   5. Give better user hints for what they can do to take a screenshot.
   6. Create the slight mappy background overlay option of wallpapers.
   7. Allow for mapping of multiple different runs.
-
+  8. List additional stats for run (pace, HR, elevation, etc.).
   
