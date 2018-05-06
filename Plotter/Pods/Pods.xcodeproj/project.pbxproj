@@ -7,148 +7,148 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00225EA6A24CB3652893963FA2CF970F /* Polyline.h in Headers */ = {isa = PBXBuildFile; fileRef = BC324A49B7ADD6E534FF7D56300DB3AF /* Polyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		003CD5A0AE1258AC859554EDC873DC12 /* NSValueTransformer+MTLInversionAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5EC98279B48E3061D9C8D552D9499D /* NSValueTransformer+MTLInversionAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		005F829E6781CC884B32C5F321721D31 /* MTLJSONAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D60775863D32793982E6622337094A /* MTLJSONAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07CCA2377CCFDD58EB8F0738D9D88917 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E8014BB7C340BF9E299D9675F0E51 /* AFHTTPRequestOperationManager.m */; };
-		093FD3E4F57261444AF61DAE111D07C3 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B20F06CBD28F05C57D20CAC8404B01F /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0C1869A00421DFBA1C82AF772E2F13BE /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4AB00DA5FFF8931E5233863AE95F6C /* AFNetworking-dummy.m */; };
-		0CD174EBD14BAE61B10B6A881625EE52 /* MTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3245509F73B127A2816D2A6BF8A59C84 /* MTLManagedObjectAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0DD519176F5025EA203D9DD53C7456C3 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEADD891ADDFEA05C0C4693AD351382 /* AFNetworkReachabilityManager.m */; };
-		0E65628BCDA365C74FD82BB73B54E014 /* FRDStravaClient+Upload.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5B8CFFD3A06306F665C56E7C7001D6 /* FRDStravaClient+Upload.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F433A80193ACD16AF746D01A22EE0C1 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C2FDEAF46C4417109BAD26EE54CFEB9E /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1162277BB1463EF1A206DDCFE4A2E0F7 /* Mantle.h in Headers */ = {isa = PBXBuildFile; fileRef = 47EC192C30298A4A01F06B3124E4DAE2 /* Mantle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00225EA6A24CB3652893963FA2CF970F /* Polyline.h in Headers */ = {isa = PBXBuildFile; fileRef = B2363E0264E603ACE68DC12FAC4BD399 /* Polyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		003CD5A0AE1258AC859554EDC873DC12 /* NSValueTransformer+MTLInversionAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6AF3E069AD3498182F50348B13271A /* NSValueTransformer+MTLInversionAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		005F829E6781CC884B32C5F321721D31 /* MTLJSONAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E87A74B1D612B61E7EA67AE314025E /* MTLJSONAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07CCA2377CCFDD58EB8F0738D9D88917 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E112223317C47C82BA40424758974C9 /* AFHTTPRequestOperationManager.m */; };
+		093FD3E4F57261444AF61DAE111D07C3 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B0D56065B7A39FA87CA9FD7F85E0D /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0C1869A00421DFBA1C82AF772E2F13BE /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB501D30CE1FD153E7EE49632851B20E /* AFNetworking-dummy.m */; };
+		0CD174EBD14BAE61B10B6A881625EE52 /* MTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 683D12E65C6617437817EBFF3E753871 /* MTLManagedObjectAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0DD519176F5025EA203D9DD53C7456C3 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1FE332C51BEA3B34CD27BB7668DBE /* AFNetworkReachabilityManager.m */; };
+		0E65628BCDA365C74FD82BB73B54E014 /* FRDStravaClient+Upload.h in Headers */ = {isa = PBXBuildFile; fileRef = 07740E553E9D4C1568C402893960FCA8 /* FRDStravaClient+Upload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F433A80193ACD16AF746D01A22EE0C1 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 8346AB1E4C9CD6F1C1FAF8A8EA33EFE9 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1162277BB1463EF1A206DDCFE4A2E0F7 /* Mantle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E31B4BC826A068B13AFF1B6F6247BFC /* Mantle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1350B98352C6169B8C8BDCEF08E9580F /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2358BD64ED2D5BD9F5274FC82A974FD5 /* Mantle.framework */; };
-		177E27D70A3679ACF2DDFE46B3468F12 /* FRDStravaClient+Athlete.h in Headers */ = {isa = PBXBuildFile; fileRef = 58086BBA25E77BFE71D59D193FD097E5 /* FRDStravaClient+Athlete.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B97157A55C3BE9AD9C313A6A8CBBCAF /* StravaSegmentEffort.h in Headers */ = {isa = PBXBuildFile; fileRef = B63EC0CF5F974DA118CE3EEF50162614 /* StravaSegmentEffort.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D974D4F7BB49961BF96F2A9084B4812 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 705AF315634A804F8FFE12EB905EC4F1 /* UIImageView+AFNetworking.m */; };
-		23F62266558CF7EA25B7AE2C7E75E67F /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE1295148A86DEF28DA7D4F50634BF /* UIAlertView+AFNetworking.m */; };
-		25E58152597C474DC6A3F6C5CA90CADE /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 489868B181D92495834BF65BE278E319 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BBBCE102A7A32E2A33F36D732A104C0 /* FRDStravaClient+ActivityStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 3327CEA66B58D868DF703D01F685F58A /* FRDStravaClient+ActivityStream.m */; };
-		2ED997B259CF87164EB742D3C6E3C670 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C3F8990F6A26B58FC67D6873FEF55 /* AFURLResponseSerialization.m */; };
-		300F34DBD1EAD72F220D42721638201C /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 322DA3656EB49EBBDB61DBDDCCB14DA1 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		304A94660AABFBCAC0938D3F7943B83D /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293D2C232013693BBB8CC5B44934046 /* Polyline.swift */; };
-		317CD191FC53D3556B7837668D7C5C7E /* Polyline-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E34C0E07128AB08BB9977FFCDAE32925 /* Polyline-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		350361E3CDB7EC5EDBAB825BE19F4990 /* FRDStravaClient+Gear.h in Headers */ = {isa = PBXBuildFile; fileRef = D34F1DE1B1C54C37E359573A52765A27 /* FRDStravaClient+Gear.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35E000C689ACA4FC31CD7F0CE82FA32F /* StravaSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 77397A3F36BCF4943CC4412CCFA66D23 /* StravaSegment.m */; };
-		36342977CC8BDDB733A3810667C44E0A /* MTLModel+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = E36995ACD9E2885B230EB43F4C9E0F76 /* MTLModel+NSCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36B7A6CC168461A1951BBB26DD103401 /* StravaActivityPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3A062590B6C96794CBD39C2C26774 /* StravaActivityPhoto.m */; };
-		37700BB8D4FF2ABDB00FAEF1B539C440 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6EF8B580FEED9ECBAC2D8B4F3538C7 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3998F3080D6EE6E6A3D3700424730886 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B2087BCA52EF023AFF08AB0FB8482282 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39EAEBB5E8864007D3CC1172403D4656 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE06C429C703148B49D04EE8671C655E /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3A8BC59C1DBD9905641DA780C5C1C47C /* FRDStravaClientImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB2B0E814FB84665FC7D2E583F24E57 /* FRDStravaClientImports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		177E27D70A3679ACF2DDFE46B3468F12 /* FRDStravaClient+Athlete.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED796E03EC5672D055434EB8D981D72 /* FRDStravaClient+Athlete.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B97157A55C3BE9AD9C313A6A8CBBCAF /* StravaSegmentEffort.h in Headers */ = {isa = PBXBuildFile; fileRef = A365B4B3BCE17B1B5AC13A93D840A13C /* StravaSegmentEffort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D974D4F7BB49961BF96F2A9084B4812 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABB76E3741FAFB71BE11E46C2D526A7 /* UIImageView+AFNetworking.m */; };
+		23F62266558CF7EA25B7AE2C7E75E67F /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A7CB5A18492613A3861DED651641CF /* UIAlertView+AFNetworking.m */; };
+		25E58152597C474DC6A3F6C5CA90CADE /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A513C8313E2910DAA44B20D707F7FE /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBBCE102A7A32E2A33F36D732A104C0 /* FRDStravaClient+ActivityStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1401BE3285624F040337744AFB83A /* FRDStravaClient+ActivityStream.m */; };
+		2ED997B259CF87164EB742D3C6E3C670 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E87D3682B1E48E7219B7B2D721B8A9 /* AFURLResponseSerialization.m */; };
+		300F34DBD1EAD72F220D42721638201C /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DADECB61BE831920AB09DF55F98BC4A5 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		304A94660AABFBCAC0938D3F7943B83D /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236EBF4D0B8A451882118E7322417E54 /* Polyline.swift */; };
+		317CD191FC53D3556B7837668D7C5C7E /* Polyline-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E58056E404F9B6CA3E986BE87DDDBEE /* Polyline-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		350361E3CDB7EC5EDBAB825BE19F4990 /* FRDStravaClient+Gear.h in Headers */ = {isa = PBXBuildFile; fileRef = 1440F4B8412477E9F8C56DF5238C688C /* FRDStravaClient+Gear.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35E000C689ACA4FC31CD7F0CE82FA32F /* StravaSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AE0823E2ADF7DCBF1773E0AD0B1F62 /* StravaSegment.m */; };
+		36342977CC8BDDB733A3810667C44E0A /* MTLModel+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 4551739042D3F6B7DF88CDDD484BEF49 /* MTLModel+NSCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36B7A6CC168461A1951BBB26DD103401 /* StravaActivityPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0E9990778068F89DCBC4FAFED1ABFD /* StravaActivityPhoto.m */; };
+		37700BB8D4FF2ABDB00FAEF1B539C440 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5DCB03C970C7D3073E8973CB2E7A9B /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3998F3080D6EE6E6A3D3700424730886 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C582E16970EF50A3E646BB7511817FE /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39EAEBB5E8864007D3CC1172403D4656 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D75ED4C3697A61E144676A8C6F7500 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3A8BC59C1DBD9905641DA780C5C1C47C /* FRDStravaClientImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 85FBD76E4D93B90A8687AB9276EF28A5 /* FRDStravaClientImports.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C4406F5BE08998EF225724EDA89C1B1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E8F8264ADCD01D1E6A77B932393457 /* MobileCoreServices.framework */; };
-		3CF32C63A2756F3222808D6EBF3B63FE /* NSError+MTLModelException.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E88098742DBF7513077E64E6A4C405 /* NSError+MTLModelException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40664B98EBF40EB2E3507013FFBDF00B /* StravaMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8813BD1E41037CDC2B2605C9528192B9 /* StravaMap.m */; };
-		40FA798EF6782417053BAD8DBFA954DB /* Mantle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB95F7BCDF56E6F7451FC5E8DDF36F0D /* Mantle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CF32C63A2756F3222808D6EBF3B63FE /* NSError+MTLModelException.h in Headers */ = {isa = PBXBuildFile; fileRef = 745F652F326FA032CB998FE447606756 /* NSError+MTLModelException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40664B98EBF40EB2E3507013FFBDF00B /* StravaMap.m in Sources */ = {isa = PBXBuildFile; fileRef = F32004F2620771744DC3E54D5F8DEA5D /* StravaMap.m */; };
+		40FA798EF6782417053BAD8DBFA954DB /* Mantle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6114ADCE4069EE71294CAA617CA29611 /* Mantle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		431F6C079F93A28CF35D4B3382750A4F /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A209EF8B13F9B9793D4DE5936F4C3340 /* AFNetworking.framework */; };
-		452BE369A0DEEFCAD4A522BA15C3EC53 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1737A3A0F5E815196F971A39D7ED6F /* AFHTTPSessionManager.m */; };
-		46003CFB00EE9EDB7751E5D9515CC8D4 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4574229921EAAF0C2DE4536F19C4E510 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		463C0B136B822EE46CF7EB21D4930D63 /* FRDStravaClient+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 033B5F5B96D54C3D2379992B1BBD7E5A /* FRDStravaClient+Segment.m */; };
-		474C2AD86C6E82802A2E2CA19890D174 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F0006E4DE9BE5B4A0B65A7FD6A2334E6 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		485E2C5ACB6046EBA39015AE5CDC18B2 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0635BAEB0C065C1D095E8DFEBEFE2F9D /* AFURLConnectionOperation.m */; };
-		4C090ED2DBCD5527DE8F078C850C78E7 /* StravaActivityUploadStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = C877FD5F5D61C061C6502F37E8E2502A /* StravaActivityUploadStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		452BE369A0DEEFCAD4A522BA15C3EC53 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD1C6005E1CD895674898F821B48E6A /* AFHTTPSessionManager.m */; };
+		46003CFB00EE9EDB7751E5D9515CC8D4 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4577CC6CAA475655265C7BD000381B72 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		463C0B136B822EE46CF7EB21D4930D63 /* FRDStravaClient+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F627ADA203BC519555444A016B156B8 /* FRDStravaClient+Segment.m */; };
+		474C2AD86C6E82802A2E2CA19890D174 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 148B2C610EF67E44C7042732EAA9530E /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		485E2C5ACB6046EBA39015AE5CDC18B2 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC30E930DAAE7DAAA0B0D0BDA5C7D8C /* AFURLConnectionOperation.m */; };
+		4C090ED2DBCD5527DE8F078C850C78E7 /* StravaActivityUploadStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE5DD39E9AC2E526F1D0CFC94E8D1F6 /* StravaActivityUploadStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C8F58EE903571901AC14AD33DBCCFC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC5A82802DF759C039895B868DFDAF0 /* Foundation.framework */; };
-		500020532FBC5A510F41388AACA639FC /* NSDictionary+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7352421E3BA97AFC132D93C6330B17 /* NSDictionary+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		50D1316AE12493D48D36ACD12F9977B3 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E93AB852525F2470EAADFBA0769747 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5286E996186A50899A9B6E300D65015B /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 509D2A372014363746884F8DC29AE58B /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		544A874551AC3F7D6977433EBE7842A0 /* FRDStravaClient+Access.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B56FD660D54CDA351022FCD6DD0612A /* FRDStravaClient+Access.m */; };
-		54A93A8656A260977A67B4682BCBA26F /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 349652287E67982EA23E5A1F1888EAA5 /* AFHTTPRequestOperation.m */; };
-		56984572EE5DA359714A53745406B550 /* FRDStravaClient+Access.h in Headers */ = {isa = PBXBuildFile; fileRef = 52DE6559FAE9CCC8D0AE67C4B37A8FD9 /* FRDStravaClient+Access.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5778EDED89C98B5763925674B9C2BE55 /* NSArray+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA221F6C49A071D8E1BC19FC56D300C /* NSArray+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		587683D1E6AAD9D994F22FAB51C5FAB4 /* StravaGear.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8EBA311F8D96106A91835469D85447 /* StravaGear.m */; };
-		59B5809E8E97F19BCDF9B18278740A6B /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F6BAAAF66906F0BB8654C0DF002F2D /* UIActivityIndicatorView+AFNetworking.m */; };
-		5AA2D2850D9DFE51FB4181FDD0A1516F /* StravaSegmentEffort.m in Sources */ = {isa = PBXBuildFile; fileRef = AF315E08181974DFE1829CE82A660811 /* StravaSegmentEffort.m */; };
-		5D34BF8EEC79E7877038D01B5D4D647C /* FRDStravaClient+Gear.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FF10E4DAC55903A2E9444B5C9940EA /* FRDStravaClient+Gear.m */; };
-		5F4ADB57CEB7A57AC58F1E6AAD42A72A /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D31DDB4F02EA1DCB39589AD55A398EF3 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500020532FBC5A510F41388AACA639FC /* NSDictionary+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8EAFB2A22286632A33458D0BC1317 /* NSDictionary+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		50D1316AE12493D48D36ACD12F9977B3 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A205CD7B8B8B1C6D871E262DBADC0F /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5286E996186A50899A9B6E300D65015B /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 91E847E59FA827AEE2C866C681E5187A /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		544A874551AC3F7D6977433EBE7842A0 /* FRDStravaClient+Access.m in Sources */ = {isa = PBXBuildFile; fileRef = D73BC71CDD7EC7AE5A825D5C460771B7 /* FRDStravaClient+Access.m */; };
+		54A93A8656A260977A67B4682BCBA26F /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7EB988C149F51EEC9E23A470B6BAC2 /* AFHTTPRequestOperation.m */; };
+		56984572EE5DA359714A53745406B550 /* FRDStravaClient+Access.h in Headers */ = {isa = PBXBuildFile; fileRef = ED8673910366591E3AD2D120925C5876 /* FRDStravaClient+Access.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5778EDED89C98B5763925674B9C2BE55 /* NSArray+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD597B7A14261E34DE68B4C210EE231 /* NSArray+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		587683D1E6AAD9D994F22FAB51C5FAB4 /* StravaGear.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CC7ED9467E07225ABC4E24087210FA /* StravaGear.m */; };
+		59B5809E8E97F19BCDF9B18278740A6B /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7164BD7C5AFED5FDFC58BD7AD40CA2C7 /* UIActivityIndicatorView+AFNetworking.m */; };
+		5AA2D2850D9DFE51FB4181FDD0A1516F /* StravaSegmentEffort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E48BA3F53BE485581EAB84E1FAB1672 /* StravaSegmentEffort.m */; };
+		5D34BF8EEC79E7877038D01B5D4D647C /* FRDStravaClient+Gear.m in Sources */ = {isa = PBXBuildFile; fileRef = EC43351D18EB070320BB02350EDA4253 /* FRDStravaClient+Gear.m */; };
+		5F4ADB57CEB7A57AC58F1E6AAD42A72A /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C112307DFB05C0F450674E4D72D7075E /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60C2A0882C15C9CAA1BC4DF1AD09771F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71095050FA7341B4B9B8C3603AB6C999 /* SystemConfiguration.framework */; };
-		62C0025655E609DA1D2DFF5A3EE1B6C5 /* StravaActivityZone.h in Headers */ = {isa = PBXBuildFile; fileRef = F16FBC6685298428FEE60EC03A7ACFD0 /* StravaActivityZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		677965841BE302FC2A25CD5862896E8E /* FRDStravaClient+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = 978171C57433301C3FD283254A68AB64 /* FRDStravaClient+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67E92EB165A51C60BE52868C8A43B2FF /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE8680D2AB9580D5C888A7E2014F1D /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E0F2754DD1793B77926B4798E0ACEAE /* StravaGear.h in Headers */ = {isa = PBXBuildFile; fileRef = 020A09CE59130B903B3CC93E10B01E41 /* StravaGear.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F9313FED3763C57F6EC60B6175CDD25 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF9E32FDFE237548373435AD958EC5A /* UIWebView+AFNetworking.m */; };
-		6FA00F190AFFEE27A3DD9C5CD4C6D8C4 /* StravaAthlete.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E16D6538383B97510610B629E84B7 /* StravaAthlete.m */; };
-		6FC4B7B0F5119FBBD5120C275A72F9B3 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAC8B32957D879FBDB8AE9FFFB6D4A /* AFSecurityPolicy.m */; };
-		703512BE50E7752B238489AAB3489FD7 /* StravaActivityLap.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D773B5B97480F242512908084489A /* StravaActivityLap.m */; };
+		62C0025655E609DA1D2DFF5A3EE1B6C5 /* StravaActivityZone.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC49F469E9894D9D8F6410978D79708 /* StravaActivityZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		677965841BE302FC2A25CD5862896E8E /* FRDStravaClient+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CAE35C7813F4B7ED286379075C81260 /* FRDStravaClient+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67E92EB165A51C60BE52868C8A43B2FF /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 616ED6FE805C109AED8C4A302FE52AF9 /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E0F2754DD1793B77926B4798E0ACEAE /* StravaGear.h in Headers */ = {isa = PBXBuildFile; fileRef = E453AA06F2D01D059FFE6BB60F7685B6 /* StravaGear.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9313FED3763C57F6EC60B6175CDD25 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E420484F65265891BBC39E780B51F /* UIWebView+AFNetworking.m */; };
+		6FA00F190AFFEE27A3DD9C5CD4C6D8C4 /* StravaAthlete.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4138ED26707B0732CFF4D7A739D0E7 /* StravaAthlete.m */; };
+		6FC4B7B0F5119FBBD5120C275A72F9B3 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B98B3B433FB6BFD143A30E4E9CC2D /* AFSecurityPolicy.m */; };
+		703512BE50E7752B238489AAB3489FD7 /* StravaActivityLap.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E593281E5B16541375387FA9EB395A /* StravaActivityLap.m */; };
 		7155D04DBD8D81F9592414EA7941D1A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC5A82802DF759C039895B868DFDAF0 /* Foundation.framework */; };
-		717BEDA9BA60F98E85EBBD25B2903982 /* StravaMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 25EE1367581AD2B5D15298FF00EDC446 /* StravaMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71F75942A3992707869A19506B4220AE /* StravaSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = C0568A29AE589F5E5B7E9801923C2221 /* StravaSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		785DF5015BB523343204BF6E48DCBDC5 /* StravaClub.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC64C7B175D9D13579E5DE85E206E9E /* StravaClub.m */; };
-		78705591C6850CE867D0356F476E0B6D /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 576D167F51764349680AE8D628267CF7 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A6F8593BBD598773DCC198202C35A7F /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565245914DB1D2FDE0181227A2467F5 /* UIButton+AFNetworking.m */; };
-		7CAB5BFFABDC5AFD1F404A40474946E0 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9707BF3763EF1E61FD5A9E3F7C76D589 /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		717BEDA9BA60F98E85EBBD25B2903982 /* StravaMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5D37A0F9F2032E267F12E3083D0399 /* StravaMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71F75942A3992707869A19506B4220AE /* StravaSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = E20F9B3EA7B48C0CC5DBA39EB46F7067 /* StravaSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		785DF5015BB523343204BF6E48DCBDC5 /* StravaClub.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DCD4FDB1CF3ADA54E40E9F0E3EFA01 /* StravaClub.m */; };
+		78705591C6850CE867D0356F476E0B6D /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 16764EF8F2C689EA02E407E67E58CB9A /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A6F8593BBD598773DCC198202C35A7F /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 499FFA372C6B9AA4940B52F827AD2FB2 /* UIButton+AFNetworking.m */; };
+		7CAB5BFFABDC5AFD1F404A40474946E0 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBF618D0D2D6D04367558BFD6E8F19D /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CFC9154F164D2B85083A8AAD71CD6FD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B846DA663C298EC736BA7585314B9D93 /* Security.framework */; };
-		80EFC08CEAAF6ACDFA586876F3618DC9 /* MTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E30CDC32F9C140A4079EC181ABD3429 /* MTLModel+NSCoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		80EFC08CEAAF6ACDFA586876F3618DC9 /* MTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 276AB34E3F52546E814B700E8F48F4B2 /* MTLModel+NSCoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		82DA396CF965AF3CF23166F3EABA6FF6 /* Pods-Plotter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A8BD35BACAECB46412BA25821081C9 /* Pods-Plotter-dummy.m */; };
-		83F7A60172EA799B2C160867208DF57D /* FRDStravaClient+Club.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE33FBB73D32F1519624AC7D12AF46 /* FRDStravaClient+Club.m */; };
-		8540BCC119F4D4D2B5E0124FECCCC8A5 /* StravaAccessTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EEBBE076026C36459F4C0F8D8BB496 /* StravaAccessTokenResponse.m */; };
-		8634FF44ABEFF40B5D561593B24C9B1E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B1471B9001844759187B09CD90CFF79A /* AFURLSessionManager.m */; };
-		86A4516B3CE647E633349AC05226C207 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2E8E91CB331AEECA1150CF293C227E /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		872EB6C7D8D72FF73FDA5F64E5D517AA /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = B514DC8A0CD51C95A5C34B86BD9D9C6B /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88168E124068394B33B7883E3780CD4B /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC06892F495A7214A8C74523803B1BF /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88B256C768C2E1A66BEE48B706133BCE /* StravaActivityPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C48819C81EE79BBDEA9BB649FC6D42 /* StravaActivityPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BA379CB246A31C95CF37A97E85FF6DB /* MTLModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F48F30E0699F6A3A4F9BB08848C14AB /* MTLModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C43E465B5B2104A23D419A1D376BFB5 /* MTLReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = D48EEF1625587F2D3E17582A42E59A82 /* MTLReflection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D29B37D4BD275A7543304AEAAB7D483 /* FRDStravaClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A94A8000B3723F80BAD1FAD0E825B4 /* FRDStravaClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D605D3BA139081D2F3991F7F2120FD6 /* NSDictionary+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 704BB5E928CDEC0B7B9BAA38733F680B /* NSDictionary+MTLManipulationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D9F0BEE416801BE17D154CDE094AAA3 /* StravaActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DF49AE173896E75C298F61F01ECB72 /* StravaActivity.m */; };
-		928D0E04335B82340005F85E6B6FF1E8 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A8953B2D632862D4269C54B7A2934 /* UIProgressView+AFNetworking.m */; };
-		9323AE442E8479F9299A1235B6F87DC8 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ABFBAA9738831D1DE1F856746EEF9A /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95B31D9D71F9E540216811163394F255 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 084F13E7ABC69339951848343024B7F2 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		964BFEA9E3E84571F866D24102FEA675 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EEBF6CA939F3F595791FD844F60A37 /* AFURLRequestSerialization.m */; };
-		968F1875C6430EC7C896ADA9CA7BDE45 /* StravaActivityComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D7E05872AA93C72A562085411E1FBB /* StravaActivityComment.m */; };
-		969EACDC93A2B9AF9D93839A38F1CD60 /* StravaActivityUploadStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C86159F3A3D8D19105A9F6F4D67F12 /* StravaActivityUploadStatus.m */; };
-		96F5913511B7EDCC427B72074DCDD404 /* StravaActivityZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9E554E276E345DAAF51523F58EDAF /* StravaActivityZone.m */; };
-		97CCE8803DDB38AB3422EBDBB7ADA4B4 /* StravaCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A317DB19C7C3D969D7BFE06101BFBD /* StravaCommon.m */; };
-		9A4EE0F60306CDB31984164484E34D33 /* FRDStravaClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE93E50F90CC04A010AE2898680F338 /* FRDStravaClient-dummy.m */; };
-		9B2590736AE0BAAAA02E1E268C3EE65F /* MTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A58293EFE639C92B5FFC6E625A7F6 /* MTLValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		83F7A60172EA799B2C160867208DF57D /* FRDStravaClient+Club.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4E447E64CD7629D7E0A54D1FB2B52F /* FRDStravaClient+Club.m */; };
+		8540BCC119F4D4D2B5E0124FECCCC8A5 /* StravaAccessTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1005BA064D533B8723E552080542EC39 /* StravaAccessTokenResponse.m */; };
+		8634FF44ABEFF40B5D561593B24C9B1E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC692A6E695B8BEA275760F5ADEB067 /* AFURLSessionManager.m */; };
+		86A4516B3CE647E633349AC05226C207 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 502B36F2F29EFC95B6A7F5D92693D236 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		872EB6C7D8D72FF73FDA5F64E5D517AA /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 0971CBF8199D65FEF45E47F067596460 /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88168E124068394B33B7883E3780CD4B /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AFDCEB888263A5A83BE2A6022BBCA4EB /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88B256C768C2E1A66BEE48B706133BCE /* StravaActivityPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = ED64534B3D83D31174E7F6FF781F444E /* StravaActivityPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA379CB246A31C95CF37A97E85FF6DB /* MTLModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B88ABBF5DBDD098654588FBBBA0E4A2A /* MTLModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C43E465B5B2104A23D419A1D376BFB5 /* MTLReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 50CF9E88ED47EEDB55878606629077BA /* MTLReflection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D29B37D4BD275A7543304AEAAB7D483 /* FRDStravaClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8105023142E33CB065CD89ACACE4D5EA /* FRDStravaClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D605D3BA139081D2F3991F7F2120FD6 /* NSDictionary+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EA01EDC376F3232B6C83F33CBEA41095 /* NSDictionary+MTLManipulationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D9F0BEE416801BE17D154CDE094AAA3 /* StravaActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD06B1BC8CB9310CC966F2B5BC91F6 /* StravaActivity.m */; };
+		928D0E04335B82340005F85E6B6FF1E8 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F88702D655F8F55908AEFDAB092AD /* UIProgressView+AFNetworking.m */; };
+		9323AE442E8479F9299A1235B6F87DC8 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF8BDD120CFD5925592DF235A150DBB /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95B31D9D71F9E540216811163394F255 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE74C37DAADA1CFE21E51EC313CED23 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		964BFEA9E3E84571F866D24102FEA675 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A2124E3A4C948F61FE505FFF95D14EAA /* AFURLRequestSerialization.m */; };
+		968F1875C6430EC7C896ADA9CA7BDE45 /* StravaActivityComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A98703B9448D8B9C9C0F5F92F497285 /* StravaActivityComment.m */; };
+		969EACDC93A2B9AF9D93839A38F1CD60 /* StravaActivityUploadStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FDDECC1EC4177CBB32A0DAB9D36D22 /* StravaActivityUploadStatus.m */; };
+		96F5913511B7EDCC427B72074DCDD404 /* StravaActivityZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0119D4F5CF01EAC97AE1C5DE90EC5A /* StravaActivityZone.m */; };
+		97CCE8803DDB38AB3422EBDBB7ADA4B4 /* StravaCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB4EAFBAA338520CCCF9EF925BDD7E /* StravaCommon.m */; };
+		9A4EE0F60306CDB31984164484E34D33 /* FRDStravaClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B4153735978F03CA641B515B537D89 /* FRDStravaClient-dummy.m */; };
+		9B2590736AE0BAAAA02E1E268C3EE65F /* MTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B9BFF61868E746EDDCE85B6B6B6872 /* MTLValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		9BD4BA592C7B24F1C626BD38CEB00AFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC5A82802DF759C039895B868DFDAF0 /* Foundation.framework */; };
-		9C0D812CFAA60238CD7A457C4B0B7594 /* NSValueTransformer+MTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D3BB8998CFCD68754CD8F07FE93459 /* NSValueTransformer+MTLInversionAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9ECFE14C1CEA97979A278BA754B35546 /* MTLManagedObjectAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = B641AC3050DF0CF480EDF0623D9FAEE1 /* MTLManagedObjectAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F080F62DEAB830ED108C28F651D7910 /* FRDStravaClient+Activity.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F921B810A9762E151E39BD19278C44D /* FRDStravaClient+Activity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1D737D6D3D781E98ABFEC6EE0C095EB /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = AC875378D95A8841D71272AE486A82A2 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5BB36B1A6041EACAE9546EEC2BA7EEC /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE7C840789FD01D2977254BDA317ACC /* NSError+MTLModelException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		ABBE5C3F8DB9358A61230AF10E837431 /* StravaAccessTokenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 525E574304C790EF6E9ADD659223A66D /* StravaAccessTokenResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD97505E11BF2CED449388011F335EE5 /* NSArray+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA02B8CA2F7114382D15743A72AB55A /* NSArray+MTLManipulationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B288CA987D7FE707A2DE90E0E6B0E1B7 /* StravaCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDD0BB79B585B33ACCAFB6EFC5CEC45 /* StravaCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2C535FEBEE83B3ED5EA78CB848A964B /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 53863980242879DAC253C58DD19F618F /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B48AECEE531EA66605BAC8237E711CA3 /* FRDStravaClient+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 15733B311E72A8399FD67BF92641123B /* FRDStravaClient+Activity.m */; };
-		B5D4EBCD83C85BF560908DC73AFCC97A /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EF0CF7EE88198D0B4DD5C952217419 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7ECEF494F5B310C2B7EB21E471C3B24 /* StravaActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8ECE5E1994752DF154FC261D787C14 /* StravaActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8E64C71559B3F4120760CA40C78A8A8 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 384787B8FF03CD32C0984D8CF864EF7E /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCB4742FE60ECE3C0BCE2E100848F5C1 /* FRDStravaClient+Club.h in Headers */ = {isa = PBXBuildFile; fileRef = F0612CB012AEA626C438519C3DDDA30A /* FRDStravaClient+Club.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF76B511CCE30339AFA70F76BCD4575C /* FRDStravaClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E1F002FE1A8620B88CEA3DAECFD485 /* FRDStravaClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C02703FC4A99946B75EBE9901A6DCE6F /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F795E31435400C63A67B216A48997D /* MTLJSONAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9C0D812CFAA60238CD7A457C4B0B7594 /* NSValueTransformer+MTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B3012BF5A23DB89BDA9B29D7765220 /* NSValueTransformer+MTLInversionAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9ECFE14C1CEA97979A278BA754B35546 /* MTLManagedObjectAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E916E9167568509F4676FDD8C16C3B /* MTLManagedObjectAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F080F62DEAB830ED108C28F651D7910 /* FRDStravaClient+Activity.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B2582429FF187DA9118CA832C835E9 /* FRDStravaClient+Activity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1D737D6D3D781E98ABFEC6EE0C095EB /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 78621F759FC9DA47279B22C3A85E6A3E /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5BB36B1A6041EACAE9546EEC2BA7EEC /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = CE79A04BF92980DD08AF99BA18E6C127 /* NSError+MTLModelException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ABBE5C3F8DB9358A61230AF10E837431 /* StravaAccessTokenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F62909FE4EEB179F6692A2D5A0064B /* StravaAccessTokenResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD97505E11BF2CED449388011F335EE5 /* NSArray+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E4DDDD2ECE272C374B8E9F8BFC9905 /* NSArray+MTLManipulationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B288CA987D7FE707A2DE90E0E6B0E1B7 /* StravaCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = E3185A610B82DC8F2F29E7978DB83413 /* StravaCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C535FEBEE83B3ED5EA78CB848A964B /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 837F41E3298DDA17996686045706EC02 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B48AECEE531EA66605BAC8237E711CA3 /* FRDStravaClient+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F9285713459EE7EFE38A5284A698DC /* FRDStravaClient+Activity.m */; };
+		B5D4EBCD83C85BF560908DC73AFCC97A /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D16D4BD85E2F688A2FED77E3B0B8DA /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7ECEF494F5B310C2B7EB21E471C3B24 /* StravaActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 11493541D16EF66238911F75F361E718 /* StravaActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E64C71559B3F4120760CA40C78A8A8 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E88486DA2951C215A5BE1516F56ED27C /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCB4742FE60ECE3C0BCE2E100848F5C1 /* FRDStravaClient+Club.h in Headers */ = {isa = PBXBuildFile; fileRef = 190EFC7822E5E303D69D7AE697D38602 /* FRDStravaClient+Club.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF76B511CCE30339AFA70F76BCD4575C /* FRDStravaClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE35A0CE391CF85D780B1912FFC3E8A /* FRDStravaClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02703FC4A99946B75EBE9901A6DCE6F /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE84DE01532B23982503F1EA3C25DAC /* MTLJSONAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C37ABCC42E82A018497F18A9B58A07B5 /* Pods-Plotter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D2DF05713ACBB01AAE7C198CB420187 /* Pods-Plotter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4CBC96D4A835E38F52654652D4603A5 /* MTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = D41265FB3D5675444BE2EEF100B076DC /* MTLReflection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C4FF1F92B99036E0598B6C3994802DE0 /* StravaActivityLap.h in Headers */ = {isa = PBXBuildFile; fileRef = 95506C6CDFD941C0459E5F6562E955B3 /* StravaActivityLap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5C3434FB7FB0533A136199F94877CEC /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D6E5CB620071A52E5AF837A3384A39 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8EA7B27FCA8377BE686BE03C73E3889 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6E551807C1F82A8D5F76524300E2F /* UIRefreshControl+AFNetworking.m */; };
-		C90B4FDFFF73682966CE481D386155D1 /* FRDStravaClient+Athlete.m in Sources */ = {isa = PBXBuildFile; fileRef = CF97542A35680EA7BC2239ABCB8CE4EA /* FRDStravaClient+Athlete.m */; };
+		C4CBC96D4A835E38F52654652D4603A5 /* MTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = BC203CBD03B0173CDA62AE5EF1DD3EF5 /* MTLReflection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C4FF1F92B99036E0598B6C3994802DE0 /* StravaActivityLap.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE2E190EF51B792840D299AAD380DA7 /* StravaActivityLap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5C3434FB7FB0533A136199F94877CEC /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DFBCCB333B357D3FAC42E5CCA1029E /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8EA7B27FCA8377BE686BE03C73E3889 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 885A36B619BE17478B6AC975D597D96E /* UIRefreshControl+AFNetworking.m */; };
+		C90B4FDFFF73682966CE481D386155D1 /* FRDStravaClient+Athlete.m in Sources */ = {isa = PBXBuildFile; fileRef = D760D7E3B29C5AE9EAFC5089B3F54247 /* FRDStravaClient+Athlete.m */; };
 		CA35E0E830F8BDE0319DE5202CA163AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC5A82802DF759C039895B868DFDAF0 /* Foundation.framework */; };
-		CA5A5FBA070B97689AB74CC85B37DCD0 /* StravaClub.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C5D6F97D30F1C204F97F4ED5999171 /* StravaClub.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAA8143616A658C166734EDD96A6EFFD /* FRDStravaClient+ActivityStream.h in Headers */ = {isa = PBXBuildFile; fileRef = B737DDE4FADC482049A788F7D73A1343 /* FRDStravaClient+ActivityStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD12D285F15CE96B7D02796F13D63EE9 /* MTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086AA3A681389EC628E6C52C5EEDB8A /* MTLModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CF0E8D70D0E6ECB756F7029AE0842E17 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DE6DC9BFB5FB5808A51EB93D7EED32 /* AFNetworkActivityIndicatorManager.m */; };
-		D0429C2AB4A6C0AD54966DA6FF252409 /* StravaStream.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5B9559887746D3E31614EB6A77D258 /* StravaStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA5A5FBA070B97689AB74CC85B37DCD0 /* StravaClub.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CC7268FE0EF88F225FC4356C010CF6 /* StravaClub.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAA8143616A658C166734EDD96A6EFFD /* FRDStravaClient+ActivityStream.h in Headers */ = {isa = PBXBuildFile; fileRef = D01CD9A875D98BDE0CAC182F12E81BF3 /* FRDStravaClient+ActivityStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD12D285F15CE96B7D02796F13D63EE9 /* MTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8554C150B11A5BA2C544851B00A5CF /* MTLModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CF0E8D70D0E6ECB756F7029AE0842E17 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEAB3B05FB3268BCCCA84AEAD6431A7 /* AFNetworkActivityIndicatorManager.m */; };
+		D0429C2AB4A6C0AD54966DA6FF252409 /* StravaStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F349923178E45ED7D7545B3B7D0C66 /* StravaStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D21B03567E4A913EB61828726CF34D8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F1CAB952A5FC02355056311E70FC15 /* CoreGraphics.framework */; };
-		D65865C21F7F118FD65704B9D62D94BE /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2716230ED4EAA4F698FD125EA89B0BE8 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAD6E26F57F3C1064C8608E05143A2E8 /* FRDStravaClient+Upload.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C41424066E597EBDE7668B29A668D90 /* FRDStravaClient+Upload.m */; };
-		DB5D9F4D439E72DB6BD6359160CDEF3C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BC3F147B536E271983C6EEE81F4A23 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC54FB859929D5167B5E689F3EF4304A /* StravaAthlete.h in Headers */ = {isa = PBXBuildFile; fileRef = D3063D5211939AB32A780A2834CDA9B8 /* StravaAthlete.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCC2791CD91F3527C1ABE48AD236E2AE /* Mantle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E93106A9EB825170E30D9A3B8DC6EF /* Mantle-dummy.m */; };
-		DD2274ABBA57C8B2452601D756572479 /* StravaActivityComment.h in Headers */ = {isa = PBXBuildFile; fileRef = E63A7BE207004561C5B5E4977791367B /* StravaActivityComment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD414A3E4A5E47F565498260C7A9A076 /* StravaStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC2F6E26201252E624C58A05548CD7F /* StravaStream.m */; };
-		E102FB6604F2D85FEA78BAF91D4B97C5 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A436C5045BAEBB4E1E2C3AC85B95CDC /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E20F4B817070F34F57C5575CA817469F /* MTLValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = F85547E947080C9640780A68D5D336BA /* MTLValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E25A8378EEF2370D2AFEE6D2D1E443B6 /* FRDStravaClient+Lap.h in Headers */ = {isa = PBXBuildFile; fileRef = 518F6006A3C81297C5CDF1DDB0A0CCE7 /* FRDStravaClient+Lap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E63E4F7742460090BA4D9FA36AD8064F /* FRDStravaClient+Lap.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EB1D03717F14953E0BE7F0D927CC36 /* FRDStravaClient+Lap.m */; };
-		F2701FE977EA577CCBB902F4D8920EB6 /* FRDStravaClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF938196A87084024AEC3B85E4594E5 /* FRDStravaClient.m */; };
-		F5142A52D57B7D144AD5275343917545 /* NSObject+MTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCEB99D1E57A027869AF592CEE24B0 /* NSObject+MTLComparisonAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F553F8B610552786372DC90B13BB2418 /* NSObject+MTLComparisonAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B90033751C9EBBB2202E291DB9ABAD42 /* NSObject+MTLComparisonAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D65865C21F7F118FD65704B9D62D94BE /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 107E77149F86CCE8B465E849842C527A /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAD6E26F57F3C1064C8608E05143A2E8 /* FRDStravaClient+Upload.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E25CB18C14F5F01FF0A07D5C8D135DE /* FRDStravaClient+Upload.m */; };
+		DB5D9F4D439E72DB6BD6359160CDEF3C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D52B14B4070B419F37FEE74075231F77 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC54FB859929D5167B5E689F3EF4304A /* StravaAthlete.h in Headers */ = {isa = PBXBuildFile; fileRef = 1278E0FE0CD26C418E0B57989274DCFC /* StravaAthlete.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCC2791CD91F3527C1ABE48AD236E2AE /* Mantle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C427C1473AA2AEB59D486EE411D11175 /* Mantle-dummy.m */; };
+		DD2274ABBA57C8B2452601D756572479 /* StravaActivityComment.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B92944E00062597E9146100CA198132 /* StravaActivityComment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD414A3E4A5E47F565498260C7A9A076 /* StravaStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 0106D045E6C052D743A06DAA1F4FF1AB /* StravaStream.m */; };
+		E102FB6604F2D85FEA78BAF91D4B97C5 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 909D82FBA9AA1891A687275F65A92904 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E20F4B817070F34F57C5575CA817469F /* MTLValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE9EDF4AE53C7F9B416BCBA1BD9EAC2 /* MTLValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E25A8378EEF2370D2AFEE6D2D1E443B6 /* FRDStravaClient+Lap.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CA89D81BB15F3303978BE354E7E8EF /* FRDStravaClient+Lap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E63E4F7742460090BA4D9FA36AD8064F /* FRDStravaClient+Lap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A14DA4F0F0244B84C1E9CFF5ED482 /* FRDStravaClient+Lap.m */; };
+		F2701FE977EA577CCBB902F4D8920EB6 /* FRDStravaClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F4C95DD23775A1AAF3F612F14F565F /* FRDStravaClient.m */; };
+		F5142A52D57B7D144AD5275343917545 /* NSObject+MTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D30F06B7A5F1231A418F43429AD074 /* NSObject+MTLComparisonAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F553F8B610552786372DC90B13BB2418 /* NSObject+MTLComparisonAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9C83BEA6974BBEA35F3F2565EEEF47 /* NSObject+MTLComparisonAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F72694EEA999DC037B11E142A6BECF18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC5A82802DF759C039895B868DFDAF0 /* Foundation.framework */; };
-		FC1930CEEDF63031C0E836AB44CAD605 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD3AF759797413BC42A1C7A681BAC3F /* EXTScope.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FE95CC10620B55AE2CE533576624FEBD /* Polyline-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B275FB6F9B0171A1D594498EF26D88D /* Polyline-dummy.m */; };
+		FC1930CEEDF63031C0E836AB44CAD605 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 722D35891E69C1F89F6C1CB52B7A22F1 /* EXTScope.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FE95CC10620B55AE2CE533576624FEBD /* Polyline-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89086BBDA13F9AEC750D20B98D5269D9 /* Polyline-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -197,174 +197,174 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002D773B5B97480F242512908084489A /* StravaActivityLap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaActivityLap.m; path = Classes/StravaActivityLap.m; sourceTree = "<group>"; };
-		020A09CE59130B903B3CC93E10B01E41 /* StravaGear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaGear.h; path = Classes/StravaGear.h; sourceTree = "<group>"; };
-		02FF10E4DAC55903A2E9444B5C9940EA /* FRDStravaClient+Gear.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Gear.m"; path = "Classes/FRDStravaClient+Gear.m"; sourceTree = "<group>"; };
-		033B5F5B96D54C3D2379992B1BBD7E5A /* FRDStravaClient+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Segment.m"; path = "Classes/FRDStravaClient+Segment.m"; sourceTree = "<group>"; };
-		0635BAEB0C065C1D095E8DFEBEFE2F9D /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		084F13E7ABC69339951848343024B7F2 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		0AF9E554E276E345DAAF51523F58EDAF /* StravaActivityZone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaActivityZone.m; path = Classes/StravaActivityZone.m; sourceTree = "<group>"; };
-		0DEADD891ADDFEA05C0C4693AD351382 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		0F48F30E0699F6A3A4F9BB08848C14AB /* MTLModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLModel.h; path = Mantle/MTLModel.h; sourceTree = "<group>"; };
-		0F7352421E3BA97AFC132D93C6330B17 /* NSDictionary+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLManipulationAdditions.m"; path = "Mantle/NSDictionary+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
-		12E93106A9EB825170E30D9A3B8DC6EF /* Mantle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mantle-dummy.m"; sourceTree = "<group>"; };
-		13BC3F147B536E271983C6EEE81F4A23 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		15733B311E72A8399FD67BF92641123B /* FRDStravaClient+Activity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Activity.m"; path = "Classes/FRDStravaClient+Activity.m"; sourceTree = "<group>"; };
-		1DE19A53C1B10775FAF57C0DFEE09973 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		0106D045E6C052D743A06DAA1F4FF1AB /* StravaStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaStream.m; path = Classes/StravaStream.m; sourceTree = "<group>"; };
+		01D30F06B7A5F1231A418F43429AD074 /* NSObject+MTLComparisonAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MTLComparisonAdditions.m"; path = "Mantle/NSObject+MTLComparisonAdditions.m"; sourceTree = "<group>"; };
+		04DFBCCB333B357D3FAC42E5CCA1029E /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		058B98B3B433FB6BFD143A30E4E9CC2D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		05D16D4BD85E2F688A2FED77E3B0B8DA /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		05E916E9167568509F4676FDD8C16C3B /* MTLManagedObjectAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLManagedObjectAdapter.h; path = Mantle/MTLManagedObjectAdapter.h; sourceTree = "<group>"; };
+		06E87D3682B1E48E7219B7B2D721B8A9 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		07740E553E9D4C1568C402893960FCA8 /* FRDStravaClient+Upload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Upload.h"; path = "Classes/FRDStravaClient+Upload.h"; sourceTree = "<group>"; };
+		0971CBF8199D65FEF45E47F067596460 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = Mantle/extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		0ABB76E3741FAFB71BE11E46C2D526A7 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		0E4138ED26707B0732CFF4D7A739D0E7 /* StravaAthlete.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaAthlete.m; path = Classes/StravaAthlete.m; sourceTree = "<group>"; };
+		0E58056E404F9B6CA3E986BE87DDDBEE /* Polyline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-umbrella.h"; sourceTree = "<group>"; };
+		0FCD06B1BC8CB9310CC966F2B5BC91F6 /* StravaActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaActivity.m; path = Classes/StravaActivity.m; sourceTree = "<group>"; };
+		0FCEA307ED77F4A98925949BB9EC151F /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		0FD597B7A14261E34DE68B4C210EE231 /* NSArray+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MTLManipulationAdditions.m"; path = "Mantle/NSArray+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		1005BA064D533B8723E552080542EC39 /* StravaAccessTokenResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaAccessTokenResponse.m; path = Classes/StravaAccessTokenResponse.m; sourceTree = "<group>"; };
+		107E77149F86CCE8B465E849842C527A /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		11493541D16EF66238911F75F361E718 /* StravaActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaActivity.h; path = Classes/StravaActivity.h; sourceTree = "<group>"; };
+		1278E0FE0CD26C418E0B57989274DCFC /* StravaAthlete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaAthlete.h; path = Classes/StravaAthlete.h; sourceTree = "<group>"; };
+		1440F4B8412477E9F8C56DF5238C688C /* FRDStravaClient+Gear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Gear.h"; path = "Classes/FRDStravaClient+Gear.h"; sourceTree = "<group>"; };
+		148B2C610EF67E44C7042732EAA9530E /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = Mantle/extobjc/metamacros.h; sourceTree = "<group>"; };
+		14A205CD7B8B8B1C6D871E262DBADC0F /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		16764EF8F2C689EA02E407E67E58CB9A /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		17B9BFF61868E746EDDCE85B6B6B6872 /* MTLValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLValueTransformer.m; path = Mantle/MTLValueTransformer.m; sourceTree = "<group>"; };
+		190EFC7822E5E303D69D7AE697D38602 /* FRDStravaClient+Club.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Club.h"; path = "Classes/FRDStravaClient+Club.h"; sourceTree = "<group>"; };
+		1E25CB18C14F5F01FF0A07D5C8D135DE /* FRDStravaClient+Upload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Upload.m"; path = "Classes/FRDStravaClient+Upload.m"; sourceTree = "<group>"; };
 		1E8F0E29B794DCF55A623E930B43E4B9 /* Pods-Plotter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Plotter.debug.xcconfig"; sourceTree = "<group>"; };
 		20C4947F0B12EE6A200F91FEFD6536BB /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2358BD64ED2D5BD9F5274FC82A974FD5 /* Mantle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mantle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		246567555D0CA1B0DA42A75C1A7FDDD0 /* Mantle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Mantle.modulemap; sourceTree = "<group>"; };
-		24D6E551807C1F82A8D5F76524300E2F /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		25EE1367581AD2B5D15298FF00EDC446 /* StravaMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaMap.h; path = Classes/StravaMap.h; sourceTree = "<group>"; };
-		2716230ED4EAA4F698FD125EA89B0BE8 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		29D7E05872AA93C72A562085411E1FBB /* StravaActivityComment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaActivityComment.m; path = Classes/StravaActivityComment.m; sourceTree = "<group>"; };
-		29EF0CF7EE88198D0B4DD5C952217419 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		2A436C5045BAEBB4E1E2C3AC85B95CDC /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		2C1E8014BB7C340BF9E299D9675F0E51 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		2CE93E50F90CC04A010AE2898680F338 /* FRDStravaClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FRDStravaClient-dummy.m"; sourceTree = "<group>"; };
-		2E1A58293EFE639C92B5FFC6E625A7F6 /* MTLValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLValueTransformer.m; path = Mantle/MTLValueTransformer.m; sourceTree = "<group>"; };
-		2E30CDC32F9C140A4079EC181ABD3429 /* MTLModel+NSCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MTLModel+NSCoding.m"; path = "Mantle/MTLModel+NSCoding.m"; sourceTree = "<group>"; };
-		2E8ECE5E1994752DF154FC261D787C14 /* StravaActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaActivity.h; path = Classes/StravaActivity.h; sourceTree = "<group>"; };
-		31ABFBAA9738831D1DE1F856746EEF9A /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		32158140D6E53E276EE445324820E9C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		322DA3656EB49EBBDB61DBDDCCB14DA1 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		3245509F73B127A2816D2A6BF8A59C84 /* MTLManagedObjectAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLManagedObjectAdapter.m; path = Mantle/MTLManagedObjectAdapter.m; sourceTree = "<group>"; };
-		3327CEA66B58D868DF703D01F685F58A /* FRDStravaClient+ActivityStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+ActivityStream.m"; path = "Classes/FRDStravaClient+ActivityStream.m"; sourceTree = "<group>"; };
-		33EEBF6CA939F3F595791FD844F60A37 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		349652287E67982EA23E5A1F1888EAA5 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		354FEAB153AB45B6F0CB4193E76004C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		372A8953B2D632862D4269C54B7A2934 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		384787B8FF03CD32C0984D8CF864EF7E /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		3B275FB6F9B0171A1D594498EF26D88D /* Polyline-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Polyline-dummy.m"; sourceTree = "<group>"; };
-		3C41424066E597EBDE7668B29A668D90 /* FRDStravaClient+Upload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Upload.m"; path = "Classes/FRDStravaClient+Upload.m"; sourceTree = "<group>"; };
-		3C8EBA311F8D96106A91835469D85447 /* StravaGear.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaGear.m; path = Classes/StravaGear.m; sourceTree = "<group>"; };
-		3D5B8CFFD3A06306F665C56E7C7001D6 /* FRDStravaClient+Upload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Upload.h"; path = "Classes/FRDStravaClient+Upload.h"; sourceTree = "<group>"; };
-		4565245914DB1D2FDE0181227A2467F5 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		4574229921EAAF0C2DE4536F19C4E510 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		45D60775863D32793982E6622337094A /* MTLJSONAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLJSONAdapter.h; path = Mantle/MTLJSONAdapter.h; sourceTree = "<group>"; };
-		45DF49AE173896E75C298F61F01ECB72 /* StravaActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaActivity.m; path = Classes/StravaActivity.m; sourceTree = "<group>"; };
-		47EB1D03717F14953E0BE7F0D927CC36 /* FRDStravaClient+Lap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Lap.m"; path = "Classes/FRDStravaClient+Lap.m"; sourceTree = "<group>"; };
-		47EC192C30298A4A01F06B3124E4DAE2 /* Mantle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mantle.h; path = Mantle/Mantle.h; sourceTree = "<group>"; };
-		489868B181D92495834BF65BE278E319 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		4B20F06CBD28F05C57D20CAC8404B01F /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = Mantle/extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
-		4BB861DB7EADEB92230C4CE685F718B8 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		509D2A372014363746884F8DC29AE58B /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		518F6006A3C81297C5CDF1DDB0A0CCE7 /* FRDStravaClient+Lap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Lap.h"; path = "Classes/FRDStravaClient+Lap.h"; sourceTree = "<group>"; };
-		525E574304C790EF6E9ADD659223A66D /* StravaAccessTokenResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaAccessTokenResponse.h; path = Classes/StravaAccessTokenResponse.h; sourceTree = "<group>"; };
-		52DE6559FAE9CCC8D0AE67C4B37A8FD9 /* FRDStravaClient+Access.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Access.h"; path = "Classes/FRDStravaClient+Access.h"; sourceTree = "<group>"; };
-		53863980242879DAC253C58DD19F618F /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		55FCEB99D1E57A027869AF592CEE24B0 /* NSObject+MTLComparisonAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MTLComparisonAdditions.m"; path = "Mantle/NSObject+MTLComparisonAdditions.m"; sourceTree = "<group>"; };
-		576D167F51764349680AE8D628267CF7 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		58086BBA25E77BFE71D59D193FD097E5 /* FRDStravaClient+Athlete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Athlete.h"; path = "Classes/FRDStravaClient+Athlete.h"; sourceTree = "<group>"; };
-		5AF3A062590B6C96794CBD39C2C26774 /* StravaActivityPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaActivityPhoto.m; path = Classes/StravaActivityPhoto.m; sourceTree = "<group>"; };
-		5E173A5C70B59300130B427BA22F5F3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EC2F6E26201252E624C58A05548CD7F /* StravaStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaStream.m; path = Classes/StravaStream.m; sourceTree = "<group>"; };
-		62F795E31435400C63A67B216A48997D /* MTLJSONAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLJSONAdapter.m; path = Mantle/MTLJSONAdapter.m; sourceTree = "<group>"; };
-		64DE6DC9BFB5FB5808A51EB93D7EED32 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		66EEBBE076026C36459F4C0F8D8BB496 /* StravaAccessTokenResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaAccessTokenResponse.m; path = Classes/StravaAccessTokenResponse.m; sourceTree = "<group>"; };
-		68F6D0A45CBCD1454F5B0BFEC448524A /* Polyline.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Polyline.xcconfig; sourceTree = "<group>"; };
-		6F921B810A9762E151E39BD19278C44D /* FRDStravaClient+Activity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Activity.h"; path = "Classes/FRDStravaClient+Activity.h"; sourceTree = "<group>"; };
-		704BB5E928CDEC0B7B9BAA38733F680B /* NSDictionary+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLManipulationAdditions.h"; path = "Mantle/NSDictionary+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
-		705AF315634A804F8FFE12EB905EC4F1 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		236EBF4D0B8A451882118E7322417E54 /* Polyline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Polyline.swift; path = Polyline/Polyline.swift; sourceTree = "<group>"; };
+		24B2582429FF187DA9118CA832C835E9 /* FRDStravaClient+Activity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Activity.h"; path = "Classes/FRDStravaClient+Activity.h"; sourceTree = "<group>"; };
+		26F349923178E45ED7D7545B3B7D0C66 /* StravaStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaStream.h; path = Classes/StravaStream.h; sourceTree = "<group>"; };
+		276AB34E3F52546E814B700E8F48F4B2 /* MTLModel+NSCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MTLModel+NSCoding.m"; path = "Mantle/MTLModel+NSCoding.m"; sourceTree = "<group>"; };
+		28CC7268FE0EF88F225FC4356C010CF6 /* StravaClub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaClub.h; path = Classes/StravaClub.h; sourceTree = "<group>"; };
+		28E593281E5B16541375387FA9EB395A /* StravaActivityLap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaActivityLap.m; path = Classes/StravaActivityLap.m; sourceTree = "<group>"; };
+		2AED33368F89F2368B5E36D1B29FA8FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBF618D0D2D6D04367558BFD6E8F19D /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = Mantle/extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		30CC7ED9467E07225ABC4E24087210FA /* StravaGear.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaGear.m; path = Classes/StravaGear.m; sourceTree = "<group>"; };
+		31B4153735978F03CA641B515B537D89 /* FRDStravaClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FRDStravaClient-dummy.m"; sourceTree = "<group>"; };
+		31E4DDDD2ECE272C374B8E9F8BFC9905 /* NSArray+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MTLManipulationAdditions.h"; path = "Mantle/NSArray+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		37D38676BE09DFCF7241D0CB7453986D /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		39F5F7B5AC1C4D8F7D5A8A7BDEE40118 /* Polyline.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Polyline.modulemap; sourceTree = "<group>"; };
+		3A5D37A0F9F2032E267F12E3083D0399 /* StravaMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaMap.h; path = Classes/StravaMap.h; sourceTree = "<group>"; };
+		3CAE35C7813F4B7ED286379075C81260 /* FRDStravaClient+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Segment.h"; path = "Classes/FRDStravaClient+Segment.h"; sourceTree = "<group>"; };
+		3DC692A6E695B8BEA275760F5ADEB067 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		3E8554C150B11A5BA2C544851B00A5CF /* MTLModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLModel.m; path = Mantle/MTLModel.m; sourceTree = "<group>"; };
+		3F3F88702D655F8F55908AEFDAB092AD /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		401E92FBE4F44738BC28323E1C9E1CD0 /* Polyline-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-prefix.pch"; sourceTree = "<group>"; };
+		40BB4EAFBAA338520CCCF9EF925BDD7E /* StravaCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaCommon.m; path = Classes/StravaCommon.m; sourceTree = "<group>"; };
+		43A7CB5A18492613A3861DED651641CF /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		443E420484F65265891BBC39E780B51F /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		4551739042D3F6B7DF88CDDD484BEF49 /* MTLModel+NSCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTLModel+NSCoding.h"; path = "Mantle/MTLModel+NSCoding.h"; sourceTree = "<group>"; };
+		4577CC6CAA475655265C7BD000381B72 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		499FFA372C6B9AA4940B52F827AD2FB2 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		4A3B0D56065B7A39FA87CA9FD7F85E0D /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = Mantle/extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		4E48BA3F53BE485581EAB84E1FAB1672 /* StravaSegmentEffort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaSegmentEffort.m; path = Classes/StravaSegmentEffort.m; sourceTree = "<group>"; };
+		502B36F2F29EFC95B6A7F5D92693D236 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		50CF9E88ED47EEDB55878606629077BA /* MTLReflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLReflection.h; path = Mantle/MTLReflection.h; sourceTree = "<group>"; };
+		50FDDECC1EC4177CBB32A0DAB9D36D22 /* StravaActivityUploadStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaActivityUploadStatus.m; path = Classes/StravaActivityUploadStatus.m; sourceTree = "<group>"; };
+		58AE0823E2ADF7DCBF1773E0AD0B1F62 /* StravaSegment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaSegment.m; path = Classes/StravaSegment.m; sourceTree = "<group>"; };
+		5A98703B9448D8B9C9C0F5F92F497285 /* StravaActivityComment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaActivityComment.m; path = Classes/StravaActivityComment.m; sourceTree = "<group>"; };
+		5AD1C6005E1CD895674898F821B48E6A /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		5E31B4BC826A068B13AFF1B6F6247BFC /* Mantle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mantle.h; path = Mantle/Mantle.h; sourceTree = "<group>"; };
+		5EE0FCBBDBAAA062D383FCD7818CF7D8 /* Polyline.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Polyline.xcconfig; sourceTree = "<group>"; };
+		5F6AF3E069AD3498182F50348B13271A /* NSValueTransformer+MTLInversionAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLInversionAdditions.h"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.h"; sourceTree = "<group>"; };
+		6114ADCE4069EE71294CAA617CA29611 /* Mantle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantle-umbrella.h"; sourceTree = "<group>"; };
+		616ED6FE805C109AED8C4A302FE52AF9 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = Mantle/extobjc/EXTScope.h; sourceTree = "<group>"; };
+		683D12E65C6617437817EBFF3E753871 /* MTLManagedObjectAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLManagedObjectAdapter.m; path = Mantle/MTLManagedObjectAdapter.m; sourceTree = "<group>"; };
+		6C582E16970EF50A3E646BB7511817FE /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		6E0119D4F5CF01EAC97AE1C5DE90EC5A /* StravaActivityZone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaActivityZone.m; path = Classes/StravaActivityZone.m; sourceTree = "<group>"; };
+		6F627ADA203BC519555444A016B156B8 /* FRDStravaClient+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Segment.m"; path = "Classes/FRDStravaClient+Segment.m"; sourceTree = "<group>"; };
 		71095050FA7341B4B9B8C3603AB6C999 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		71D3BB8998CFCD68754CD8F07FE93459 /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLInversionAdditions.m"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
-		7565CB778091A3FEB1CCECFD9379E4F8 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		77397A3F36BCF4943CC4412CCFA66D23 /* StravaSegment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaSegment.m; path = Classes/StravaSegment.m; sourceTree = "<group>"; };
-		7AAC11C2F8E3F0410974F5EF076CACEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B5EC98279B48E3061D9C8D552D9499D /* NSValueTransformer+MTLInversionAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLInversionAdditions.h"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.h"; sourceTree = "<group>"; };
-		7CB2B0E814FB84665FC7D2E583F24E57 /* FRDStravaClientImports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FRDStravaClientImports.h; path = Classes/FRDStravaClientImports.h; sourceTree = "<group>"; };
-		81BE8680D2AB9580D5C888A7E2014F1D /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = Mantle/extobjc/EXTScope.h; sourceTree = "<group>"; };
-		8293D2C232013693BBB8CC5B44934046 /* Polyline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Polyline.swift; path = Polyline/Polyline.swift; sourceTree = "<group>"; };
+		7164BD7C5AFED5FDFC58BD7AD40CA2C7 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		722D35891E69C1F89F6C1CB52B7A22F1 /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = Mantle/extobjc/EXTScope.m; sourceTree = "<group>"; };
+		7399BB769666441D28CDE73095585E85 /* FRDStravaClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FRDStravaClient.xcconfig; sourceTree = "<group>"; };
+		745F652F326FA032CB998FE447606756 /* NSError+MTLModelException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+MTLModelException.h"; path = "Mantle/NSError+MTLModelException.h"; sourceTree = "<group>"; };
+		78621F759FC9DA47279B22C3A85E6A3E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		79E87A74B1D612B61E7EA67AE314025E /* MTLJSONAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLJSONAdapter.h; path = Mantle/MTLJSONAdapter.h; sourceTree = "<group>"; };
+		7DE9EDF4AE53C7F9B416BCBA1BD9EAC2 /* MTLValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLValueTransformer.h; path = Mantle/MTLValueTransformer.h; sourceTree = "<group>"; };
+		7E112223317C47C82BA40424758974C9 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		80CE630143FB9DFA9771C397A18049E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8105023142E33CB065CD89ACACE4D5EA /* FRDStravaClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FRDStravaClient.h; path = Classes/FRDStravaClient.h; sourceTree = "<group>"; };
+		8346AB1E4C9CD6F1C1FAF8A8EA33EFE9 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		837F41E3298DDA17996686045706EC02 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		83A8BD35BACAECB46412BA25821081C9 /* Pods-Plotter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Plotter-dummy.m"; sourceTree = "<group>"; };
 		85FBD3E8E2D5254182B0282D04F57A47 /* Mantle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mantle.framework; path = Mantle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FBD76E4D93B90A8687AB9276EF28A5 /* FRDStravaClientImports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FRDStravaClientImports.h; path = Classes/FRDStravaClientImports.h; sourceTree = "<group>"; };
 		87BDBAC439F720D33A9AD78A98CCD103 /* FRDStravaClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FRDStravaClient.framework; path = FRDStravaClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8813BD1E41037CDC2B2605C9528192B9 /* StravaMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaMap.m; path = Classes/StravaMap.m; sourceTree = "<group>"; };
-		8B56FD660D54CDA351022FCD6DD0612A /* FRDStravaClient+Access.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Access.m"; path = "Classes/FRDStravaClient+Access.m"; sourceTree = "<group>"; };
+		885A36B619BE17478B6AC975D597D96E /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		89086BBDA13F9AEC750D20B98D5269D9 /* Polyline-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Polyline-dummy.m"; sourceTree = "<group>"; };
+		8AC1FE332C51BEA3B34CD27BB7668DBE /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		8C3A14DA4F0F0244B84C1E9CFF5ED482 /* FRDStravaClient+Lap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Lap.m"; path = "Classes/FRDStravaClient+Lap.m"; sourceTree = "<group>"; };
+		8C5FA3BD8142BA3278730526DAF9BC93 /* Mantle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantle-prefix.pch"; sourceTree = "<group>"; };
+		8CC648D904C27E73E603BBDB65DB2D25 /* FRDStravaClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FRDStravaClient.modulemap; sourceTree = "<group>"; };
+		8CF8BDD120CFD5925592DF235A150DBB /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		8D2DF05713ACBB01AAE7C198CB420187 /* Pods-Plotter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Plotter-umbrella.h"; sourceTree = "<group>"; };
-		9086AA3A681389EC628E6C52C5EEDB8A /* MTLModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLModel.m; path = Mantle/MTLModel.m; sourceTree = "<group>"; };
+		8D5DCB03C970C7D3073E8973CB2E7A9B /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		8FCE6A7E6B92DA87898778751F9BAE33 /* Mantle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Mantle.modulemap; sourceTree = "<group>"; };
+		8FE5DD39E9AC2E526F1D0CFC94E8D1F6 /* StravaActivityUploadStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaActivityUploadStatus.h; path = Classes/StravaActivityUploadStatus.h; sourceTree = "<group>"; };
+		909D82FBA9AA1891A687275F65A92904 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		91E847E59FA827AEE2C866C681E5187A /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		92C7271E7AA76CF72B07E8FF6E6CFDFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95506C6CDFD941C0459E5F6562E955B3 /* StravaActivityLap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaActivityLap.h; path = Classes/StravaActivityLap.h; sourceTree = "<group>"; };
-		95A94A8000B3723F80BAD1FAD0E825B4 /* FRDStravaClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FRDStravaClient.h; path = Classes/FRDStravaClient.h; sourceTree = "<group>"; };
-		9707BF3763EF1E61FD5A9E3F7C76D589 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = Mantle/extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
-		978171C57433301C3FD283254A68AB64 /* FRDStravaClient+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Segment.h"; path = "Classes/FRDStravaClient+Segment.h"; sourceTree = "<group>"; };
-		98F6BAAAF66906F0BB8654C0DF002F2D /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		9BF938196A87084024AEC3B85E4594E5 /* FRDStravaClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FRDStravaClient.m; path = Classes/FRDStravaClient.m; sourceTree = "<group>"; };
-		9C8CCC016CEF52DF5CEC461DD2A8A7F9 /* Mantle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantle-prefix.pch"; sourceTree = "<group>"; };
+		98F62909FE4EEB179F6692A2D5A0064B /* StravaAccessTokenResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaAccessTokenResponse.h; path = Classes/StravaAccessTokenResponse.h; sourceTree = "<group>"; };
+		9B92944E00062597E9146100CA198132 /* StravaActivityComment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaActivityComment.h; path = Classes/StravaActivityComment.h; sourceTree = "<group>"; };
+		9CB08F7CDCB7B8B281DFB99953A01BB5 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		9ED796E03EC5672D055434EB8D981D72 /* FRDStravaClient+Athlete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Athlete.h"; path = "Classes/FRDStravaClient+Athlete.h"; sourceTree = "<group>"; };
+		9FA1401BE3285624F040337744AFB83A /* FRDStravaClient+ActivityStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+ActivityStream.m"; path = "Classes/FRDStravaClient+ActivityStream.m"; sourceTree = "<group>"; };
+		9FC49F469E9894D9D8F6410978D79708 /* StravaActivityZone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaActivityZone.h; path = Classes/StravaActivityZone.h; sourceTree = "<group>"; };
 		A209EF8B13F9B9793D4DE5936F4C3340 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2124E3A4C948F61FE505FFF95D14EAA /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		A253DB62AC3D68F600FB17A3A5965AA9 /* Pods_Plotter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Plotter.framework; path = "Pods-Plotter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7A317DB19C7C3D969D7BFE06101BFBD /* StravaCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaCommon.m; path = Classes/StravaCommon.m; sourceTree = "<group>"; };
+		A365B4B3BCE17B1B5AC13A93D840A13C /* StravaSegmentEffort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaSegmentEffort.h; path = Classes/StravaSegmentEffort.h; sourceTree = "<group>"; };
+		A3AEB2363A1032308379CD919530623F /* Mantle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mantle.xcconfig; sourceTree = "<group>"; };
+		A7C459B27ABAC3A66C6F1850760A63AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7DCD4FDB1CF3ADA54E40E9F0E3EFA01 /* StravaClub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaClub.m; path = Classes/StravaClub.m; sourceTree = "<group>"; };
 		A94063E16C36F9482FE2DAA83B5D7BC4 /* Pods-Plotter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Plotter-acknowledgements.plist"; sourceTree = "<group>"; };
-		AC875378D95A8841D71272AE486A82A2 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		AF315E08181974DFE1829CE82A660811 /* StravaSegmentEffort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaSegmentEffort.m; path = Classes/StravaSegmentEffort.m; sourceTree = "<group>"; };
-		B1471B9001844759187B09CD90CFF79A /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		B1D6E5CB620071A52E5AF837A3384A39 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		B2087BCA52EF023AFF08AB0FB8482282 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		B514DC8A0CD51C95A5C34B86BD9D9C6B /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = Mantle/extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
-		B63EC0CF5F974DA118CE3EEF50162614 /* StravaSegmentEffort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaSegmentEffort.h; path = Classes/StravaSegmentEffort.h; sourceTree = "<group>"; };
-		B641AC3050DF0CF480EDF0623D9FAEE1 /* MTLManagedObjectAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLManagedObjectAdapter.h; path = Mantle/MTLManagedObjectAdapter.h; sourceTree = "<group>"; };
-		B737DDE4FADC482049A788F7D73A1343 /* FRDStravaClient+ActivityStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+ActivityStream.h"; path = "Classes/FRDStravaClient+ActivityStream.h"; sourceTree = "<group>"; };
+		A9F9285713459EE7EFE38A5284A698DC /* FRDStravaClient+Activity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Activity.m"; path = "Classes/FRDStravaClient+Activity.m"; sourceTree = "<group>"; };
+		AB501D30CE1FD153E7EE49632851B20E /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		AD0E9990778068F89DCBC4FAFED1ABFD /* StravaActivityPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaActivityPhoto.m; path = Classes/StravaActivityPhoto.m; sourceTree = "<group>"; };
+		AE9C83BEA6974BBEA35F3F2565EEEF47 /* NSObject+MTLComparisonAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MTLComparisonAdditions.h"; path = "Mantle/NSObject+MTLComparisonAdditions.h"; sourceTree = "<group>"; };
+		AFDCEB888263A5A83BE2A6022BBCA4EB /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
+		B1A513C8313E2910DAA44B20D707F7FE /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		B2363E0264E603ACE68DC12FAC4BD399 /* Polyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Polyline.h; path = Polyline/Polyline.h; sourceTree = "<group>"; };
 		B75D4BF913B893FAC9A78B7FADDB6615 /* Pods-Plotter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Plotter.release.xcconfig"; sourceTree = "<group>"; };
+		B7D2EBA44DD0E1403AF17885663A5AC1 /* FRDStravaClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRDStravaClient-prefix.pch"; sourceTree = "<group>"; };
 		B846DA663C298EC736BA7585314B9D93 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		B8C5D6F97D30F1C204F97F4ED5999171 /* StravaClub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaClub.h; path = Classes/StravaClub.h; sourceTree = "<group>"; };
-		B90033751C9EBBB2202E291DB9ABAD42 /* NSObject+MTLComparisonAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MTLComparisonAdditions.h"; path = "Mantle/NSObject+MTLComparisonAdditions.h"; sourceTree = "<group>"; };
-		BC324A49B7ADD6E534FF7D56300DB3AF /* Polyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Polyline.h; path = Polyline/Polyline.h; sourceTree = "<group>"; };
-		BC8E16D6538383B97510610B629E84B7 /* StravaAthlete.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaAthlete.m; path = Classes/StravaAthlete.m; sourceTree = "<group>"; };
-		BCF9E32FDFE237548373435AD958EC5A /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		BDA02B8CA2F7114382D15743A72AB55A /* NSArray+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MTLManipulationAdditions.h"; path = "Mantle/NSArray+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		B88ABBF5DBDD098654588FBBBA0E4A2A /* MTLModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLModel.h; path = Mantle/MTLModel.h; sourceTree = "<group>"; };
+		BAE84DE01532B23982503F1EA3C25DAC /* MTLJSONAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLJSONAdapter.m; path = Mantle/MTLJSONAdapter.m; sourceTree = "<group>"; };
+		BC203CBD03B0173CDA62AE5EF1DD3EF5 /* MTLReflection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLReflection.m; path = Mantle/MTLReflection.m; sourceTree = "<group>"; };
 		BDC5A82802DF759C039895B868DFDAF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		BFBE1295148A86DEF28DA7D4F50634BF /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
-		BFDD0BB79B585B33ACCAFB6EFC5CEC45 /* StravaCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaCommon.h; path = Classes/StravaCommon.h; sourceTree = "<group>"; };
-		C0568A29AE589F5E5B7E9801923C2221 /* StravaSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaSegment.h; path = Classes/StravaSegment.h; sourceTree = "<group>"; };
-		C0E88098742DBF7513077E64E6A4C405 /* NSError+MTLModelException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+MTLModelException.h"; path = "Mantle/NSError+MTLModelException.h"; sourceTree = "<group>"; };
-		C2FDEAF46C4417109BAD26EE54CFEB9E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		BF08235526B436FD22955EC15C6FD431 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C8EAFB2A22286632A33458D0BC1317 /* NSDictionary+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLManipulationAdditions.m"; path = "Mantle/NSDictionary+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		C112307DFB05C0F450674E4D72D7075E /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		C1D75ED4C3697A61E144676A8C6F7500 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
+		C3B3012BF5A23DB89BDA9B29D7765220 /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLInversionAdditions.m"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
 		C3E8F8264ADCD01D1E6A77B932393457 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		C3EE757217BA17983A82C6DF7B72769F /* Polyline-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-prefix.pch"; sourceTree = "<group>"; };
-		C877FD5F5D61C061C6502F37E8E2502A /* StravaActivityUploadStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaActivityUploadStatus.h; path = Classes/StravaActivityUploadStatus.h; sourceTree = "<group>"; };
+		C427C1473AA2AEB59D486EE411D11175 /* Mantle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mantle-dummy.m"; sourceTree = "<group>"; };
 		C93F5056A5BD767B2427EFE5CE666C71 /* Pods-Plotter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Plotter-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC2E8E91CB331AEECA1150CF293C227E /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		CCA221F6C49A071D8E1BC19FC56D300C /* NSArray+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MTLManipulationAdditions.m"; path = "Mantle/NSArray+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
-		CCD3AF759797413BC42A1C7A681BAC3F /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = Mantle/extobjc/EXTScope.m; sourceTree = "<group>"; };
-		CDAAC8B32957D879FBDB8AE9FFFB6D4A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		CF4AB00DA5FFF8931E5233863AE95F6C /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		CF516A7FFA8E6094679C8B6F8DE84FE1 /* FRDStravaClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FRDStravaClient.modulemap; sourceTree = "<group>"; };
-		CF97542A35680EA7BC2239ABCB8CE4EA /* FRDStravaClient+Athlete.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Athlete.m"; path = "Classes/FRDStravaClient+Athlete.m"; sourceTree = "<group>"; };
-		D3063D5211939AB32A780A2834CDA9B8 /* StravaAthlete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaAthlete.h; path = Classes/StravaAthlete.h; sourceTree = "<group>"; };
-		D31DDB4F02EA1DCB39589AD55A398EF3 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
-		D344272655FA8A50FF27DE68857E231E /* FRDStravaClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRDStravaClient-prefix.pch"; sourceTree = "<group>"; };
-		D34F1DE1B1C54C37E359573A52765A27 /* FRDStravaClient+Gear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Gear.h"; path = "Classes/FRDStravaClient+Gear.h"; sourceTree = "<group>"; };
+		C9F4C95DD23775A1AAF3F612F14F565F /* FRDStravaClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FRDStravaClient.m; path = Classes/FRDStravaClient.m; sourceTree = "<group>"; };
+		CE79A04BF92980DD08AF99BA18E6C127 /* NSError+MTLModelException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+MTLModelException.m"; path = "Mantle/NSError+MTLModelException.m"; sourceTree = "<group>"; };
+		D01CD9A875D98BDE0CAC182F12E81BF3 /* FRDStravaClient+ActivityStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+ActivityStream.h"; path = "Classes/FRDStravaClient+ActivityStream.h"; sourceTree = "<group>"; };
 		D3F1CAB952A5FC02355056311E70FC15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		D41265FB3D5675444BE2EEF100B076DC /* MTLReflection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLReflection.m; path = Mantle/MTLReflection.m; sourceTree = "<group>"; };
-		D48EEF1625587F2D3E17582A42E59A82 /* MTLReflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLReflection.h; path = Mantle/MTLReflection.h; sourceTree = "<group>"; };
-		DB95F7BCDF56E6F7451FC5E8DDF36F0D /* Mantle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantle-umbrella.h"; sourceTree = "<group>"; };
+		D52B14B4070B419F37FEE74075231F77 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		D73BC71CDD7EC7AE5A825D5C460771B7 /* FRDStravaClient+Access.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Access.m"; path = "Classes/FRDStravaClient+Access.m"; sourceTree = "<group>"; };
+		D760D7E3B29C5AE9EAFC5089B3F54247 /* FRDStravaClient+Athlete.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Athlete.m"; path = "Classes/FRDStravaClient+Athlete.m"; sourceTree = "<group>"; };
+		DADECB61BE831920AB09DF55F98BC4A5 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		DAE2E190EF51B792840D299AAD380DA7 /* StravaActivityLap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaActivityLap.h; path = Classes/StravaActivityLap.h; sourceTree = "<group>"; };
 		DBBF61740A72FD074FADA403F3A705EA /* Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Polyline.framework; path = Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE35A0CE391CF85D780B1912FFC3E8A /* FRDStravaClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRDStravaClient-umbrella.h"; sourceTree = "<group>"; };
 		DD70FF7E9987C7A999C9B7CB2A7B2F3C /* Pods-Plotter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Plotter-frameworks.sh"; sourceTree = "<group>"; };
-		DE06C429C703148B49D04EE8671C655E /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
-		DE5B9559887746D3E31614EB6A77D258 /* StravaStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaStream.h; path = Classes/StravaStream.h; sourceTree = "<group>"; };
-		DEE7C840789FD01D2977254BDA317ACC /* NSError+MTLModelException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+MTLModelException.m"; path = "Mantle/NSError+MTLModelException.m"; sourceTree = "<group>"; };
-		DF6EF8B580FEED9ECBAC2D8B4F3538C7 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		E2C48819C81EE79BBDEA9BB649FC6D42 /* StravaActivityPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaActivityPhoto.h; path = Classes/StravaActivityPhoto.h; sourceTree = "<group>"; };
-		E34C0E07128AB08BB9977FFCDAE32925 /* Polyline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polyline-umbrella.h"; sourceTree = "<group>"; };
-		E36995ACD9E2885B230EB43F4C9E0F76 /* MTLModel+NSCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTLModel+NSCoding.h"; path = "Mantle/MTLModel+NSCoding.h"; sourceTree = "<group>"; };
+		DDEAB3B05FB3268BCCCA84AEAD6431A7 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		DE7EB988C149F51EEC9E23A470B6BAC2 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		E20F9B3EA7B48C0CC5DBA39EB46F7067 /* StravaSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaSegment.h; path = Classes/StravaSegment.h; sourceTree = "<group>"; };
+		E3185A610B82DC8F2F29E7978DB83413 /* StravaCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaCommon.h; path = Classes/StravaCommon.h; sourceTree = "<group>"; };
+		E453AA06F2D01D059FFE6BB60F7685B6 /* StravaGear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaGear.h; path = Classes/StravaGear.h; sourceTree = "<group>"; };
 		E57BEFE42D87250561B00A3A07FFD820 /* Pods-Plotter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Plotter.modulemap"; sourceTree = "<group>"; };
-		E63A7BE207004561C5B5E4977791367B /* StravaActivityComment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaActivityComment.h; path = Classes/StravaActivityComment.h; sourceTree = "<group>"; };
 		E63D5820BF47D035F7F30064BD662158 /* Pods-Plotter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Plotter-resources.sh"; sourceTree = "<group>"; };
-		E64E3255732F6B5278DDF6571ABB57DC /* Mantle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mantle.xcconfig; sourceTree = "<group>"; };
-		E7E1F002FE1A8620B88CEA3DAECFD485 /* FRDStravaClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRDStravaClient-umbrella.h"; sourceTree = "<group>"; };
-		E7E93AB852525F2470EAADFBA0769747 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		EA1737A3A0F5E815196F971A39D7ED6F /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		ECEE33FBB73D32F1519624AC7D12AF46 /* FRDStravaClient+Club.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Club.m"; path = "Classes/FRDStravaClient+Club.m"; sourceTree = "<group>"; };
-		EF1C3F8990F6A26B58FC67D6873FEF55 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		F0006E4DE9BE5B4A0B65A7FD6A2334E6 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = Mantle/extobjc/metamacros.h; sourceTree = "<group>"; };
-		F0612CB012AEA626C438519C3DDDA30A /* FRDStravaClient+Club.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Club.h"; path = "Classes/FRDStravaClient+Club.h"; sourceTree = "<group>"; };
-		F104FA3A5CE396FEF701D241E8669946 /* FRDStravaClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FRDStravaClient.xcconfig; sourceTree = "<group>"; };
-		F16FBC6685298428FEE60EC03A7ACFD0 /* StravaActivityZone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaActivityZone.h; path = Classes/StravaActivityZone.h; sourceTree = "<group>"; };
-		F7C86159F3A3D8D19105A9F6F4D67F12 /* StravaActivityUploadStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaActivityUploadStatus.m; path = Classes/StravaActivityUploadStatus.m; sourceTree = "<group>"; };
-		F85547E947080C9640780A68D5D336BA /* MTLValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLValueTransformer.h; path = Mantle/MTLValueTransformer.h; sourceTree = "<group>"; };
-		FAC06892F495A7214A8C74523803B1BF /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
-		FAC64C7B175D9D13579E5DE85E206E9E /* StravaClub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaClub.m; path = Classes/StravaClub.m; sourceTree = "<group>"; };
-		FC87ED47D87F1DFDD95B3C9A8D25E128 /* Polyline.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Polyline.modulemap; sourceTree = "<group>"; };
+		E88486DA2951C215A5BE1516F56ED27C /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		EA01EDC376F3232B6C83F33CBEA41095 /* NSDictionary+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLManipulationAdditions.h"; path = "Mantle/NSDictionary+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		EA4E447E64CD7629D7E0A54D1FB2B52F /* FRDStravaClient+Club.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Club.m"; path = "Classes/FRDStravaClient+Club.m"; sourceTree = "<group>"; };
+		EC43351D18EB070320BB02350EDA4253 /* FRDStravaClient+Gear.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FRDStravaClient+Gear.m"; path = "Classes/FRDStravaClient+Gear.m"; sourceTree = "<group>"; };
+		ED64534B3D83D31174E7F6FF781F444E /* StravaActivityPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StravaActivityPhoto.h; path = Classes/StravaActivityPhoto.h; sourceTree = "<group>"; };
+		ED8673910366591E3AD2D120925C5876 /* FRDStravaClient+Access.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Access.h"; path = "Classes/FRDStravaClient+Access.h"; sourceTree = "<group>"; };
+		F32004F2620771744DC3E54D5F8DEA5D /* StravaMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StravaMap.m; path = Classes/StravaMap.m; sourceTree = "<group>"; };
+		F9CA89D81BB15F3303978BE354E7E8EF /* FRDStravaClient+Lap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FRDStravaClient+Lap.h"; path = "Classes/FRDStravaClient+Lap.h"; sourceTree = "<group>"; };
+		FAC30E930DAAE7DAAA0B0D0BDA5C7D8C /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		FEE74C37DAADA1CFE21E51EC313CED23 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -417,129 +417,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16820A6FF6B2A9D104A2CC3923245B60 /* NSURLSession */ = {
+		1924457D43A7EA41625F3B0D4547A139 /* extobjc */ = {
 			isa = PBXGroup;
 			children = (
-				2A436C5045BAEBB4E1E2C3AC85B95CDC /* AFHTTPSessionManager.h */,
-				EA1737A3A0F5E815196F971A39D7ED6F /* AFHTTPSessionManager.m */,
-				DF6EF8B580FEED9ECBAC2D8B4F3538C7 /* AFURLSessionManager.h */,
-				B1471B9001844759187B09CD90CFF79A /* AFURLSessionManager.m */,
+				0971CBF8199D65FEF45E47F067596460 /* EXTKeyPathCoding.h */,
+				2BBF618D0D2D6D04367558BFD6E8F19D /* EXTRuntimeExtensions.h */,
+				4A3B0D56065B7A39FA87CA9FD7F85E0D /* EXTRuntimeExtensions.m */,
+				616ED6FE805C109AED8C4A302FE52AF9 /* EXTScope.h */,
+				722D35891E69C1F89F6C1CB52B7A22F1 /* EXTScope.m */,
+				148B2C610EF67E44C7042732EAA9530E /* metamacros.h */,
 			);
-			name = NSURLSession;
+			name = extobjc;
 			sourceTree = "<group>";
 		};
-		1BED62507E3D7E1FD862873F8A79B0DE /* FRDStravaClient */ = {
+		2414F9C220F367F6325767B1373069AD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				95A94A8000B3723F80BAD1FAD0E825B4 /* FRDStravaClient.h */,
-				9BF938196A87084024AEC3B85E4594E5 /* FRDStravaClient.m */,
-				52DE6559FAE9CCC8D0AE67C4B37A8FD9 /* FRDStravaClient+Access.h */,
-				8B56FD660D54CDA351022FCD6DD0612A /* FRDStravaClient+Access.m */,
-				6F921B810A9762E151E39BD19278C44D /* FRDStravaClient+Activity.h */,
-				15733B311E72A8399FD67BF92641123B /* FRDStravaClient+Activity.m */,
-				B737DDE4FADC482049A788F7D73A1343 /* FRDStravaClient+ActivityStream.h */,
-				3327CEA66B58D868DF703D01F685F58A /* FRDStravaClient+ActivityStream.m */,
-				58086BBA25E77BFE71D59D193FD097E5 /* FRDStravaClient+Athlete.h */,
-				CF97542A35680EA7BC2239ABCB8CE4EA /* FRDStravaClient+Athlete.m */,
-				F0612CB012AEA626C438519C3DDDA30A /* FRDStravaClient+Club.h */,
-				ECEE33FBB73D32F1519624AC7D12AF46 /* FRDStravaClient+Club.m */,
-				D34F1DE1B1C54C37E359573A52765A27 /* FRDStravaClient+Gear.h */,
-				02FF10E4DAC55903A2E9444B5C9940EA /* FRDStravaClient+Gear.m */,
-				518F6006A3C81297C5CDF1DDB0A0CCE7 /* FRDStravaClient+Lap.h */,
-				47EB1D03717F14953E0BE7F0D927CC36 /* FRDStravaClient+Lap.m */,
-				978171C57433301C3FD283254A68AB64 /* FRDStravaClient+Segment.h */,
-				033B5F5B96D54C3D2379992B1BBD7E5A /* FRDStravaClient+Segment.m */,
-				3D5B8CFFD3A06306F665C56E7C7001D6 /* FRDStravaClient+Upload.h */,
-				3C41424066E597EBDE7668B29A668D90 /* FRDStravaClient+Upload.m */,
-				7CB2B0E814FB84665FC7D2E583F24E57 /* FRDStravaClientImports.h */,
-				525E574304C790EF6E9ADD659223A66D /* StravaAccessTokenResponse.h */,
-				66EEBBE076026C36459F4C0F8D8BB496 /* StravaAccessTokenResponse.m */,
-				2E8ECE5E1994752DF154FC261D787C14 /* StravaActivity.h */,
-				45DF49AE173896E75C298F61F01ECB72 /* StravaActivity.m */,
-				E63A7BE207004561C5B5E4977791367B /* StravaActivityComment.h */,
-				29D7E05872AA93C72A562085411E1FBB /* StravaActivityComment.m */,
-				95506C6CDFD941C0459E5F6562E955B3 /* StravaActivityLap.h */,
-				002D773B5B97480F242512908084489A /* StravaActivityLap.m */,
-				E2C48819C81EE79BBDEA9BB649FC6D42 /* StravaActivityPhoto.h */,
-				5AF3A062590B6C96794CBD39C2C26774 /* StravaActivityPhoto.m */,
-				C877FD5F5D61C061C6502F37E8E2502A /* StravaActivityUploadStatus.h */,
-				F7C86159F3A3D8D19105A9F6F4D67F12 /* StravaActivityUploadStatus.m */,
-				F16FBC6685298428FEE60EC03A7ACFD0 /* StravaActivityZone.h */,
-				0AF9E554E276E345DAAF51523F58EDAF /* StravaActivityZone.m */,
-				D3063D5211939AB32A780A2834CDA9B8 /* StravaAthlete.h */,
-				BC8E16D6538383B97510610B629E84B7 /* StravaAthlete.m */,
-				B8C5D6F97D30F1C204F97F4ED5999171 /* StravaClub.h */,
-				FAC64C7B175D9D13579E5DE85E206E9E /* StravaClub.m */,
-				BFDD0BB79B585B33ACCAFB6EFC5CEC45 /* StravaCommon.h */,
-				A7A317DB19C7C3D969D7BFE06101BFBD /* StravaCommon.m */,
-				020A09CE59130B903B3CC93E10B01E41 /* StravaGear.h */,
-				3C8EBA311F8D96106A91835469D85447 /* StravaGear.m */,
-				25EE1367581AD2B5D15298FF00EDC446 /* StravaMap.h */,
-				8813BD1E41037CDC2B2605C9528192B9 /* StravaMap.m */,
-				C0568A29AE589F5E5B7E9801923C2221 /* StravaSegment.h */,
-				77397A3F36BCF4943CC4412CCFA66D23 /* StravaSegment.m */,
-				B63EC0CF5F974DA118CE3EEF50162614 /* StravaSegmentEffort.h */,
-				AF315E08181974DFE1829CE82A660811 /* StravaSegmentEffort.m */,
-				DE5B9559887746D3E31614EB6A77D258 /* StravaStream.h */,
-				5EC2F6E26201252E624C58A05548CD7F /* StravaStream.m */,
-				D17F6CDCE93BBC912776A34E8E04A389 /* Support Files */,
-			);
-			name = FRDStravaClient;
-			path = FRDStravaClient;
-			sourceTree = "<group>";
-		};
-		2B95E58EA15C35A7127FBED7ABAC46A9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				43BAFF4BDBD621B43FDD0BF8F2AA1820 /* AFNetworking */,
-				1BED62507E3D7E1FD862873F8A79B0DE /* FRDStravaClient */,
-				9FA00A3D312B3373B0F137FE43D83FFB /* Mantle */,
-				97EFC528C1602AE7EA226DF0D804258E /* Polyline */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		42AF5E62CD4672D3DCAF1CDDECAEA96B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				354FEAB153AB45B6F0CB4193E76004C5 /* Info.plist */,
-				FC87ED47D87F1DFDD95B3C9A8D25E128 /* Polyline.modulemap */,
-				68F6D0A45CBCD1454F5B0BFEC448524A /* Polyline.xcconfig */,
-				3B275FB6F9B0171A1D594498EF26D88D /* Polyline-dummy.m */,
-				C3EE757217BA17983A82C6DF7B72769F /* Polyline-prefix.pch */,
-				E34C0E07128AB08BB9977FFCDAE32925 /* Polyline-umbrella.h */,
+				A7C459B27ABAC3A66C6F1850760A63AB /* Info.plist */,
+				8FCE6A7E6B92DA87898778751F9BAE33 /* Mantle.modulemap */,
+				A3AEB2363A1032308379CD919530623F /* Mantle.xcconfig */,
+				C427C1473AA2AEB59D486EE411D11175 /* Mantle-dummy.m */,
+				8C5FA3BD8142BA3278730526DAF9BC93 /* Mantle-prefix.pch */,
+				6114ADCE4069EE71294CAA617CA29611 /* Mantle-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Polyline";
+			path = "../Target Support Files/Mantle";
 			sourceTree = "<group>";
 		};
-		43BAFF4BDBD621B43FDD0BF8F2AA1820 /* AFNetworking */ = {
+		269F9F3709635B141BD974E3C4E5D26C /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				31ABFBAA9738831D1DE1F856746EEF9A /* AFNetworking.h */,
-				B329D7B1239F4B2C2079FFAFD4950895 /* NSURLConnection */,
-				16820A6FF6B2A9D104A2CC3923245B60 /* NSURLSession */,
-				69B351F151C947886ECF1FFE216B54FB /* Reachability */,
-				B7069A76B84526199590C0AAC63E2035 /* Security */,
-				64E44C2195F4243CA973D452A8BF94A4 /* Serialization */,
-				9E7702D79E5BAD54185006629C22F02B /* Support Files */,
-				C6AC81853B21F566BF18DCBB5DA770E6 /* UIKit */,
+				8CF8BDD120CFD5925592DF235A150DBB /* AFNetworking.h */,
+				DEAD03F8EE8746F52792F6AD34764DD0 /* NSURLConnection */,
+				32203D3B86E2892548EDDA3A0ED26FD8 /* NSURLSession */,
+				EB266FE973F8B89CABA51AB7BA0A305F /* Reachability */,
+				39E1715827C5F7DABE72E16FDE3D5F6B /* Security */,
+				A85D25D4FAB4AE45F9569351F2BD6699 /* Serialization */,
+				DDDD0419E4AB6A4B4708EFBFA1BDC77B /* Support Files */,
+				ABA7D16FF554716F126C365630444605 /* UIKit */,
 			);
 			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		4B570B43E7B0997710D393B021287293 /* extobjc */ = {
+		32203D3B86E2892548EDDA3A0ED26FD8 /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				B514DC8A0CD51C95A5C34B86BD9D9C6B /* EXTKeyPathCoding.h */,
-				9707BF3763EF1E61FD5A9E3F7C76D589 /* EXTRuntimeExtensions.h */,
-				4B20F06CBD28F05C57D20CAC8404B01F /* EXTRuntimeExtensions.m */,
-				81BE8680D2AB9580D5C888A7E2014F1D /* EXTScope.h */,
-				CCD3AF759797413BC42A1C7A681BAC3F /* EXTScope.m */,
-				F0006E4DE9BE5B4A0B65A7FD6A2334E6 /* metamacros.h */,
+				909D82FBA9AA1891A687275F65A92904 /* AFHTTPSessionManager.h */,
+				5AD1C6005E1CD895674898F821B48E6A /* AFHTTPSessionManager.m */,
+				8D5DCB03C970C7D3073E8973CB2E7A9B /* AFURLSessionManager.h */,
+				3DC692A6E695B8BEA275760F5ADEB067 /* AFURLSessionManager.m */,
 			);
-			name = extobjc;
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		39E1715827C5F7DABE72E16FDE3D5F6B /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				78621F759FC9DA47279B22C3A85E6A3E /* AFSecurityPolicy.h */,
+				058B98B3B433FB6BFD143A30E4E9CC2D /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		42E0988F8337E2E03DD8A3CFC59B856C /* Polyline */ = {
+			isa = PBXGroup;
+			children = (
+				B2363E0264E603ACE68DC12FAC4BD399 /* Polyline.h */,
+				236EBF4D0B8A451882118E7322417E54 /* Polyline.swift */,
+				6D54E24ADD8A7D6883E554D308288AFC /* Support Files */,
+			);
+			name = Polyline;
+			path = Polyline;
 			sourceTree = "<group>";
 		};
 		58A5095D5E46C2A88497A5C4817C18B0 /* Targets Support Files */ = {
@@ -550,24 +499,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		64E44C2195F4243CA973D452A8BF94A4 /* Serialization */ = {
+		6D54E24ADD8A7D6883E554D308288AFC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C2FDEAF46C4417109BAD26EE54CFEB9E /* AFURLRequestSerialization.h */,
-				33EEBF6CA939F3F595791FD844F60A37 /* AFURLRequestSerialization.m */,
-				53863980242879DAC253C58DD19F618F /* AFURLResponseSerialization.h */,
-				EF1C3F8990F6A26B58FC67D6873FEF55 /* AFURLResponseSerialization.m */,
+				BF08235526B436FD22955EC15C6FD431 /* Info.plist */,
+				39F5F7B5AC1C4D8F7D5A8A7BDEE40118 /* Polyline.modulemap */,
+				5EE0FCBBDBAAA062D383FCD7818CF7D8 /* Polyline.xcconfig */,
+				89086BBDA13F9AEC750D20B98D5269D9 /* Polyline-dummy.m */,
+				401E92FBE4F44738BC28323E1C9E1CD0 /* Polyline-prefix.pch */,
+				0E58056E404F9B6CA3E986BE87DDDBEE /* Polyline-umbrella.h */,
 			);
-			name = Serialization;
-			sourceTree = "<group>";
-		};
-		69B351F151C947886ECF1FFE216B54FB /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				576D167F51764349680AE8D628267CF7 /* AFNetworkReachabilityManager.h */,
-				0DEADD891ADDFEA05C0C4693AD351382 /* AFNetworkReachabilityManager.m */,
-			);
-			name = Reachability;
+			name = "Support Files";
+			path = "../Target Support Files/Polyline";
 			sourceTree = "<group>";
 		};
 		781C17131D92C2A5F9C902E846032E7F /* Products */ = {
@@ -587,70 +530,70 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				C48D36B8B04573F93DE2180D3F4F0D6A /* Frameworks */,
-				2B95E58EA15C35A7127FBED7ABAC46A9 /* Pods */,
+				FF708DF1A047E6C8FD836C3418282A30 /* Pods */,
 				781C17131D92C2A5F9C902E846032E7F /* Products */,
 				58A5095D5E46C2A88497A5C4817C18B0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		97EFC528C1602AE7EA226DF0D804258E /* Polyline */ = {
+		9C1AF4925B9D8FCD007089BCF7680C79 /* FRDStravaClient */ = {
 			isa = PBXGroup;
 			children = (
-				BC324A49B7ADD6E534FF7D56300DB3AF /* Polyline.h */,
-				8293D2C232013693BBB8CC5B44934046 /* Polyline.swift */,
-				42AF5E62CD4672D3DCAF1CDDECAEA96B /* Support Files */,
+				8105023142E33CB065CD89ACACE4D5EA /* FRDStravaClient.h */,
+				C9F4C95DD23775A1AAF3F612F14F565F /* FRDStravaClient.m */,
+				ED8673910366591E3AD2D120925C5876 /* FRDStravaClient+Access.h */,
+				D73BC71CDD7EC7AE5A825D5C460771B7 /* FRDStravaClient+Access.m */,
+				24B2582429FF187DA9118CA832C835E9 /* FRDStravaClient+Activity.h */,
+				A9F9285713459EE7EFE38A5284A698DC /* FRDStravaClient+Activity.m */,
+				D01CD9A875D98BDE0CAC182F12E81BF3 /* FRDStravaClient+ActivityStream.h */,
+				9FA1401BE3285624F040337744AFB83A /* FRDStravaClient+ActivityStream.m */,
+				9ED796E03EC5672D055434EB8D981D72 /* FRDStravaClient+Athlete.h */,
+				D760D7E3B29C5AE9EAFC5089B3F54247 /* FRDStravaClient+Athlete.m */,
+				190EFC7822E5E303D69D7AE697D38602 /* FRDStravaClient+Club.h */,
+				EA4E447E64CD7629D7E0A54D1FB2B52F /* FRDStravaClient+Club.m */,
+				1440F4B8412477E9F8C56DF5238C688C /* FRDStravaClient+Gear.h */,
+				EC43351D18EB070320BB02350EDA4253 /* FRDStravaClient+Gear.m */,
+				F9CA89D81BB15F3303978BE354E7E8EF /* FRDStravaClient+Lap.h */,
+				8C3A14DA4F0F0244B84C1E9CFF5ED482 /* FRDStravaClient+Lap.m */,
+				3CAE35C7813F4B7ED286379075C81260 /* FRDStravaClient+Segment.h */,
+				6F627ADA203BC519555444A016B156B8 /* FRDStravaClient+Segment.m */,
+				07740E553E9D4C1568C402893960FCA8 /* FRDStravaClient+Upload.h */,
+				1E25CB18C14F5F01FF0A07D5C8D135DE /* FRDStravaClient+Upload.m */,
+				85FBD76E4D93B90A8687AB9276EF28A5 /* FRDStravaClientImports.h */,
+				98F62909FE4EEB179F6692A2D5A0064B /* StravaAccessTokenResponse.h */,
+				1005BA064D533B8723E552080542EC39 /* StravaAccessTokenResponse.m */,
+				11493541D16EF66238911F75F361E718 /* StravaActivity.h */,
+				0FCD06B1BC8CB9310CC966F2B5BC91F6 /* StravaActivity.m */,
+				9B92944E00062597E9146100CA198132 /* StravaActivityComment.h */,
+				5A98703B9448D8B9C9C0F5F92F497285 /* StravaActivityComment.m */,
+				DAE2E190EF51B792840D299AAD380DA7 /* StravaActivityLap.h */,
+				28E593281E5B16541375387FA9EB395A /* StravaActivityLap.m */,
+				ED64534B3D83D31174E7F6FF781F444E /* StravaActivityPhoto.h */,
+				AD0E9990778068F89DCBC4FAFED1ABFD /* StravaActivityPhoto.m */,
+				8FE5DD39E9AC2E526F1D0CFC94E8D1F6 /* StravaActivityUploadStatus.h */,
+				50FDDECC1EC4177CBB32A0DAB9D36D22 /* StravaActivityUploadStatus.m */,
+				9FC49F469E9894D9D8F6410978D79708 /* StravaActivityZone.h */,
+				6E0119D4F5CF01EAC97AE1C5DE90EC5A /* StravaActivityZone.m */,
+				1278E0FE0CD26C418E0B57989274DCFC /* StravaAthlete.h */,
+				0E4138ED26707B0732CFF4D7A739D0E7 /* StravaAthlete.m */,
+				28CC7268FE0EF88F225FC4356C010CF6 /* StravaClub.h */,
+				A7DCD4FDB1CF3ADA54E40E9F0E3EFA01 /* StravaClub.m */,
+				E3185A610B82DC8F2F29E7978DB83413 /* StravaCommon.h */,
+				40BB4EAFBAA338520CCCF9EF925BDD7E /* StravaCommon.m */,
+				E453AA06F2D01D059FFE6BB60F7685B6 /* StravaGear.h */,
+				30CC7ED9467E07225ABC4E24087210FA /* StravaGear.m */,
+				3A5D37A0F9F2032E267F12E3083D0399 /* StravaMap.h */,
+				F32004F2620771744DC3E54D5F8DEA5D /* StravaMap.m */,
+				E20F9B3EA7B48C0CC5DBA39EB46F7067 /* StravaSegment.h */,
+				58AE0823E2ADF7DCBF1773E0AD0B1F62 /* StravaSegment.m */,
+				A365B4B3BCE17B1B5AC13A93D840A13C /* StravaSegmentEffort.h */,
+				4E48BA3F53BE485581EAB84E1FAB1672 /* StravaSegmentEffort.m */,
+				26F349923178E45ED7D7545B3B7D0C66 /* StravaStream.h */,
+				0106D045E6C052D743A06DAA1F4FF1AB /* StravaStream.m */,
+				C7867F3310046244CE382990D4F46D4B /* Support Files */,
 			);
-			name = Polyline;
-			path = Polyline;
-			sourceTree = "<group>";
-		};
-		9E7702D79E5BAD54185006629C22F02B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4BB861DB7EADEB92230C4CE685F718B8 /* AFNetworking.modulemap */,
-				1DE19A53C1B10775FAF57C0DFEE09973 /* AFNetworking.xcconfig */,
-				CF4AB00DA5FFF8931E5233863AE95F6C /* AFNetworking-dummy.m */,
-				7565CB778091A3FEB1CCECFD9379E4F8 /* AFNetworking-prefix.pch */,
-				29EF0CF7EE88198D0B4DD5C952217419 /* AFNetworking-umbrella.h */,
-				32158140D6E53E276EE445324820E9C5 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
-			sourceTree = "<group>";
-		};
-		9FA00A3D312B3373B0F137FE43D83FFB /* Mantle */ = {
-			isa = PBXGroup;
-			children = (
-				47EC192C30298A4A01F06B3124E4DAE2 /* Mantle.h */,
-				45D60775863D32793982E6622337094A /* MTLJSONAdapter.h */,
-				62F795E31435400C63A67B216A48997D /* MTLJSONAdapter.m */,
-				B641AC3050DF0CF480EDF0623D9FAEE1 /* MTLManagedObjectAdapter.h */,
-				3245509F73B127A2816D2A6BF8A59C84 /* MTLManagedObjectAdapter.m */,
-				0F48F30E0699F6A3A4F9BB08848C14AB /* MTLModel.h */,
-				9086AA3A681389EC628E6C52C5EEDB8A /* MTLModel.m */,
-				E36995ACD9E2885B230EB43F4C9E0F76 /* MTLModel+NSCoding.h */,
-				2E30CDC32F9C140A4079EC181ABD3429 /* MTLModel+NSCoding.m */,
-				D48EEF1625587F2D3E17582A42E59A82 /* MTLReflection.h */,
-				D41265FB3D5675444BE2EEF100B076DC /* MTLReflection.m */,
-				F85547E947080C9640780A68D5D336BA /* MTLValueTransformer.h */,
-				2E1A58293EFE639C92B5FFC6E625A7F6 /* MTLValueTransformer.m */,
-				BDA02B8CA2F7114382D15743A72AB55A /* NSArray+MTLManipulationAdditions.h */,
-				CCA221F6C49A071D8E1BC19FC56D300C /* NSArray+MTLManipulationAdditions.m */,
-				704BB5E928CDEC0B7B9BAA38733F680B /* NSDictionary+MTLManipulationAdditions.h */,
-				0F7352421E3BA97AFC132D93C6330B17 /* NSDictionary+MTLManipulationAdditions.m */,
-				C0E88098742DBF7513077E64E6A4C405 /* NSError+MTLModelException.h */,
-				DEE7C840789FD01D2977254BDA317ACC /* NSError+MTLModelException.m */,
-				B90033751C9EBBB2202E291DB9ABAD42 /* NSObject+MTLComparisonAdditions.h */,
-				55FCEB99D1E57A027869AF592CEE24B0 /* NSObject+MTLComparisonAdditions.m */,
-				7B5EC98279B48E3061D9C8D552D9499D /* NSValueTransformer+MTLInversionAdditions.h */,
-				71D3BB8998CFCD68754CD8F07FE93459 /* NSValueTransformer+MTLInversionAdditions.m */,
-				FAC06892F495A7214A8C74523803B1BF /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */,
-				DE06C429C703148B49D04EE8671C655E /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */,
-				4B570B43E7B0997710D393B021287293 /* extobjc */,
-				B2CD98A6A51D3658802A16358D89352A /* Support Files */,
-			);
-			name = Mantle;
-			path = Mantle;
+			name = FRDStravaClient;
+			path = FRDStravaClient;
 			sourceTree = "<group>";
 		};
 		A26366DC6F227F2617BA6B31C157C1D1 /* iOS */ = {
@@ -665,40 +608,48 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B2CD98A6A51D3658802A16358D89352A /* Support Files */ = {
+		A85D25D4FAB4AE45F9569351F2BD6699 /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
-				7AAC11C2F8E3F0410974F5EF076CACEE /* Info.plist */,
-				246567555D0CA1B0DA42A75C1A7FDDD0 /* Mantle.modulemap */,
-				E64E3255732F6B5278DDF6571ABB57DC /* Mantle.xcconfig */,
-				12E93106A9EB825170E30D9A3B8DC6EF /* Mantle-dummy.m */,
-				9C8CCC016CEF52DF5CEC461DD2A8A7F9 /* Mantle-prefix.pch */,
-				DB95F7BCDF56E6F7451FC5E8DDF36F0D /* Mantle-umbrella.h */,
+				8346AB1E4C9CD6F1C1FAF8A8EA33EFE9 /* AFURLRequestSerialization.h */,
+				A2124E3A4C948F61FE505FFF95D14EAA /* AFURLRequestSerialization.m */,
+				837F41E3298DDA17996686045706EC02 /* AFURLResponseSerialization.h */,
+				06E87D3682B1E48E7219B7B2D721B8A9 /* AFURLResponseSerialization.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Mantle";
+			name = Serialization;
 			sourceTree = "<group>";
 		};
-		B329D7B1239F4B2C2079FFAFD4950895 /* NSURLConnection */ = {
+		ABA7D16FF554716F126C365630444605 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				B2087BCA52EF023AFF08AB0FB8482282 /* AFHTTPRequestOperation.h */,
-				349652287E67982EA23E5A1F1888EAA5 /* AFHTTPRequestOperation.m */,
-				CC2E8E91CB331AEECA1150CF293C227E /* AFHTTPRequestOperationManager.h */,
-				2C1E8014BB7C340BF9E299D9675F0E51 /* AFHTTPRequestOperationManager.m */,
-				E7E93AB852525F2470EAADFBA0769747 /* AFURLConnectionOperation.h */,
-				0635BAEB0C065C1D095E8DFEBEFE2F9D /* AFURLConnectionOperation.m */,
+				D52B14B4070B419F37FEE74075231F77 /* AFNetworkActivityIndicatorManager.h */,
+				DDEAB3B05FB3268BCCCA84AEAD6431A7 /* AFNetworkActivityIndicatorManager.m */,
+				04DFBCCB333B357D3FAC42E5CCA1029E /* UIActivityIndicatorView+AFNetworking.h */,
+				7164BD7C5AFED5FDFC58BD7AD40CA2C7 /* UIActivityIndicatorView+AFNetworking.m */,
+				C112307DFB05C0F450674E4D72D7075E /* UIAlertView+AFNetworking.h */,
+				43A7CB5A18492613A3861DED651641CF /* UIAlertView+AFNetworking.m */,
+				E88486DA2951C215A5BE1516F56ED27C /* UIButton+AFNetworking.h */,
+				499FFA372C6B9AA4940B52F827AD2FB2 /* UIButton+AFNetworking.m */,
+				FEE74C37DAADA1CFE21E51EC313CED23 /* UIImage+AFNetworking.h */,
+				DADECB61BE831920AB09DF55F98BC4A5 /* UIImageView+AFNetworking.h */,
+				0ABB76E3741FAFB71BE11E46C2D526A7 /* UIImageView+AFNetworking.m */,
+				4577CC6CAA475655265C7BD000381B72 /* UIKit+AFNetworking.h */,
+				91E847E59FA827AEE2C866C681E5187A /* UIProgressView+AFNetworking.h */,
+				3F3F88702D655F8F55908AEFDAB092AD /* UIProgressView+AFNetworking.m */,
+				107E77149F86CCE8B465E849842C527A /* UIRefreshControl+AFNetworking.h */,
+				885A36B619BE17478B6AC975D597D96E /* UIRefreshControl+AFNetworking.m */,
+				B1A513C8313E2910DAA44B20D707F7FE /* UIWebView+AFNetworking.h */,
+				443E420484F65265891BBC39E780B51F /* UIWebView+AFNetworking.m */,
 			);
-			name = NSURLConnection;
+			name = UIKit;
 			sourceTree = "<group>";
 		};
-		B7069A76B84526199590C0AAC63E2035 /* Security */ = {
+		B582E4D04A34E20DB0DBEE571052077F /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				AC875378D95A8841D71272AE486A82A2 /* AFSecurityPolicy.h */,
-				CDAAC8B32957D879FBDB8AE9FFFB6D4A /* AFSecurityPolicy.m */,
 			);
-			name = Security;
+			name = SwiftLint;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 		C48D36B8B04573F93DE2180D3F4F0D6A /* Frameworks */ = {
@@ -711,43 +662,89 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C6AC81853B21F566BF18DCBB5DA770E6 /* UIKit */ = {
+		C7867F3310046244CE382990D4F46D4B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				13BC3F147B536E271983C6EEE81F4A23 /* AFNetworkActivityIndicatorManager.h */,
-				64DE6DC9BFB5FB5808A51EB93D7EED32 /* AFNetworkActivityIndicatorManager.m */,
-				B1D6E5CB620071A52E5AF837A3384A39 /* UIActivityIndicatorView+AFNetworking.h */,
-				98F6BAAAF66906F0BB8654C0DF002F2D /* UIActivityIndicatorView+AFNetworking.m */,
-				D31DDB4F02EA1DCB39589AD55A398EF3 /* UIAlertView+AFNetworking.h */,
-				BFBE1295148A86DEF28DA7D4F50634BF /* UIAlertView+AFNetworking.m */,
-				384787B8FF03CD32C0984D8CF864EF7E /* UIButton+AFNetworking.h */,
-				4565245914DB1D2FDE0181227A2467F5 /* UIButton+AFNetworking.m */,
-				084F13E7ABC69339951848343024B7F2 /* UIImage+AFNetworking.h */,
-				322DA3656EB49EBBDB61DBDDCCB14DA1 /* UIImageView+AFNetworking.h */,
-				705AF315634A804F8FFE12EB905EC4F1 /* UIImageView+AFNetworking.m */,
-				4574229921EAAF0C2DE4536F19C4E510 /* UIKit+AFNetworking.h */,
-				509D2A372014363746884F8DC29AE58B /* UIProgressView+AFNetworking.h */,
-				372A8953B2D632862D4269C54B7A2934 /* UIProgressView+AFNetworking.m */,
-				2716230ED4EAA4F698FD125EA89B0BE8 /* UIRefreshControl+AFNetworking.h */,
-				24D6E551807C1F82A8D5F76524300E2F /* UIRefreshControl+AFNetworking.m */,
-				489868B181D92495834BF65BE278E319 /* UIWebView+AFNetworking.h */,
-				BCF9E32FDFE237548373435AD958EC5A /* UIWebView+AFNetworking.m */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		D17F6CDCE93BBC912776A34E8E04A389 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CF516A7FFA8E6094679C8B6F8DE84FE1 /* FRDStravaClient.modulemap */,
-				F104FA3A5CE396FEF701D241E8669946 /* FRDStravaClient.xcconfig */,
-				2CE93E50F90CC04A010AE2898680F338 /* FRDStravaClient-dummy.m */,
-				D344272655FA8A50FF27DE68857E231E /* FRDStravaClient-prefix.pch */,
-				E7E1F002FE1A8620B88CEA3DAECFD485 /* FRDStravaClient-umbrella.h */,
-				5E173A5C70B59300130B427BA22F5F3F /* Info.plist */,
+				8CC648D904C27E73E603BBDB65DB2D25 /* FRDStravaClient.modulemap */,
+				7399BB769666441D28CDE73095585E85 /* FRDStravaClient.xcconfig */,
+				31B4153735978F03CA641B515B537D89 /* FRDStravaClient-dummy.m */,
+				B7D2EBA44DD0E1403AF17885663A5AC1 /* FRDStravaClient-prefix.pch */,
+				DCE35A0CE391CF85D780B1912FFC3E8A /* FRDStravaClient-umbrella.h */,
+				80CE630143FB9DFA9771C397A18049E0 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FRDStravaClient";
+			sourceTree = "<group>";
+		};
+		D38322D9DEB18CA590BEEAB0BEE85762 /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				5E31B4BC826A068B13AFF1B6F6247BFC /* Mantle.h */,
+				79E87A74B1D612B61E7EA67AE314025E /* MTLJSONAdapter.h */,
+				BAE84DE01532B23982503F1EA3C25DAC /* MTLJSONAdapter.m */,
+				05E916E9167568509F4676FDD8C16C3B /* MTLManagedObjectAdapter.h */,
+				683D12E65C6617437817EBFF3E753871 /* MTLManagedObjectAdapter.m */,
+				B88ABBF5DBDD098654588FBBBA0E4A2A /* MTLModel.h */,
+				3E8554C150B11A5BA2C544851B00A5CF /* MTLModel.m */,
+				4551739042D3F6B7DF88CDDD484BEF49 /* MTLModel+NSCoding.h */,
+				276AB34E3F52546E814B700E8F48F4B2 /* MTLModel+NSCoding.m */,
+				50CF9E88ED47EEDB55878606629077BA /* MTLReflection.h */,
+				BC203CBD03B0173CDA62AE5EF1DD3EF5 /* MTLReflection.m */,
+				7DE9EDF4AE53C7F9B416BCBA1BD9EAC2 /* MTLValueTransformer.h */,
+				17B9BFF61868E746EDDCE85B6B6B6872 /* MTLValueTransformer.m */,
+				31E4DDDD2ECE272C374B8E9F8BFC9905 /* NSArray+MTLManipulationAdditions.h */,
+				0FD597B7A14261E34DE68B4C210EE231 /* NSArray+MTLManipulationAdditions.m */,
+				EA01EDC376F3232B6C83F33CBEA41095 /* NSDictionary+MTLManipulationAdditions.h */,
+				C0C8EAFB2A22286632A33458D0BC1317 /* NSDictionary+MTLManipulationAdditions.m */,
+				745F652F326FA032CB998FE447606756 /* NSError+MTLModelException.h */,
+				CE79A04BF92980DD08AF99BA18E6C127 /* NSError+MTLModelException.m */,
+				AE9C83BEA6974BBEA35F3F2565EEEF47 /* NSObject+MTLComparisonAdditions.h */,
+				01D30F06B7A5F1231A418F43429AD074 /* NSObject+MTLComparisonAdditions.m */,
+				5F6AF3E069AD3498182F50348B13271A /* NSValueTransformer+MTLInversionAdditions.h */,
+				C3B3012BF5A23DB89BDA9B29D7765220 /* NSValueTransformer+MTLInversionAdditions.m */,
+				AFDCEB888263A5A83BE2A6022BBCA4EB /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */,
+				C1D75ED4C3697A61E144676A8C6F7500 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */,
+				1924457D43A7EA41625F3B0D4547A139 /* extobjc */,
+				2414F9C220F367F6325767B1373069AD /* Support Files */,
+			);
+			name = Mantle;
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		DDDD0419E4AB6A4B4708EFBFA1BDC77B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FCEA307ED77F4A98925949BB9EC151F /* AFNetworking.modulemap */,
+				37D38676BE09DFCF7241D0CB7453986D /* AFNetworking.xcconfig */,
+				AB501D30CE1FD153E7EE49632851B20E /* AFNetworking-dummy.m */,
+				9CB08F7CDCB7B8B281DFB99953A01BB5 /* AFNetworking-prefix.pch */,
+				05D16D4BD85E2F688A2FED77E3B0B8DA /* AFNetworking-umbrella.h */,
+				2AED33368F89F2368B5E36D1B29FA8FD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		DEAD03F8EE8746F52792F6AD34764DD0 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				6C582E16970EF50A3E646BB7511817FE /* AFHTTPRequestOperation.h */,
+				DE7EB988C149F51EEC9E23A470B6BAC2 /* AFHTTPRequestOperation.m */,
+				502B36F2F29EFC95B6A7F5D92693D236 /* AFHTTPRequestOperationManager.h */,
+				7E112223317C47C82BA40424758974C9 /* AFHTTPRequestOperationManager.m */,
+				14A205CD7B8B8B1C6D871E262DBADC0F /* AFURLConnectionOperation.h */,
+				FAC30E930DAAE7DAAA0B0D0BDA5C7D8C /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		EB266FE973F8B89CABA51AB7BA0A305F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				16764EF8F2C689EA02E407E67E58CB9A /* AFNetworkReachabilityManager.h */,
+				8AC1FE332C51BEA3B34CD27BB7668DBE /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
 			sourceTree = "<group>";
 		};
 		F7F43BB3CC61790A877BF6006F876E41 /* Pods-Plotter */ = {
@@ -766,6 +763,18 @@
 			);
 			name = "Pods-Plotter";
 			path = "Target Support Files/Pods-Plotter";
+			sourceTree = "<group>";
+		};
+		FF708DF1A047E6C8FD836C3418282A30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				269F9F3709635B141BD974E3C4E5D26C /* AFNetworking */,
+				9C1AF4925B9D8FCD007089BCF7680C79 /* FRDStravaClient */,
+				D38322D9DEB18CA590BEEAB0BEE85762 /* Mantle */,
+				42E0988F8337E2E03DD8A3CFC59B856C /* Polyline */,
+				B582E4D04A34E20DB0DBEE571052077F /* SwiftLint */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1141,7 +1150,7 @@
 /* Begin XCBuildConfiguration section */
 		001BE11F14DD2E89948E7840EF34A2FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F104FA3A5CE396FEF701D241E8669946 /* FRDStravaClient.xcconfig */;
+			baseConfigurationReference = 7399BB769666441D28CDE73095585E85 /* FRDStravaClient.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1172,7 +1181,7 @@
 		};
 		02F10EBFFEF343DB01B664C12D0BD6F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DE19A53C1B10775FAF57C0DFEE09973 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 37D38676BE09DFCF7241D0CB7453986D /* AFNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1202,7 +1211,7 @@
 		};
 		088149425AFB7C21DE236DB8E9D53DEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F104FA3A5CE396FEF701D241E8669946 /* FRDStravaClient.xcconfig */;
+			baseConfigurationReference = 7399BB769666441D28CDE73095585E85 /* FRDStravaClient.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1326,7 +1335,7 @@
 		};
 		6EF65EF975083AA1F9BAF74F732F2130 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E64E3255732F6B5278DDF6571ABB57DC /* Mantle.xcconfig */;
+			baseConfigurationReference = A3AEB2363A1032308379CD919530623F /* Mantle.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1412,7 +1421,7 @@
 		};
 		8F9D6BA22C757783E062CA18F778B783 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E64E3255732F6B5278DDF6571ABB57DC /* Mantle.xcconfig */;
+			baseConfigurationReference = A3AEB2363A1032308379CD919530623F /* Mantle.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1442,7 +1451,7 @@
 		};
 		9117EDBA5387E40A824076A198C3CE95 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68F6D0A45CBCD1454F5B0BFEC448524A /* Polyline.xcconfig */;
+			baseConfigurationReference = 5EE0FCBBDBAAA062D383FCD7818CF7D8 /* Polyline.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1508,7 +1517,7 @@
 		};
 		D51E0602D75BB4B90A30E40EA3011E52 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DE19A53C1B10775FAF57C0DFEE09973 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 37D38676BE09DFCF7241D0CB7453986D /* AFNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1539,7 +1548,7 @@
 		};
 		E273194106C5D073E9D8CDE1F409413E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68F6D0A45CBCD1454F5B0BFEC448524A /* Polyline.xcconfig */;
+			baseConfigurationReference = 5EE0FCBBDBAAA062D383FCD7818CF7D8 /* Polyline.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

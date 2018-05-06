@@ -87,22 +87,19 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="126.2 mi" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTv-wL-sKS">
-                                                    <rect key="frame" x="260" y="22" width="100" height="34.5"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="100" id="hMF-dH-a21"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="259" y="22" width="101" height="34.5"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="25"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activity Title Here" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iv2-Jd-GvG">
-                                                    <rect key="frame" x="15" y="11" width="245" height="34.5"/>
+                                                    <rect key="frame" x="15" y="11" width="244" height="34.5"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date Here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsy-QO-hyh">
-                                                    <rect key="frame" x="15" y="50.5" width="60.5" height="18"/>
+                                                    <rect key="frame" x="15" y="50.5" width="224" height="18"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="18" id="ekY-IA-jS1"/>
                                                     </constraints>
@@ -113,6 +110,8 @@
                                             </subviews>
                                             <color key="backgroundColor" red="0.32152998447418213" green="0.32159090042114258" blue="0.32152613997459412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
+                                                <constraint firstItem="XTv-wL-sKS" firstAttribute="width" secondItem="nlB-WM-HLl" secondAttribute="width" multiplier="0.27" id="5K4-SV-UVs"/>
+                                                <constraint firstItem="XTv-wL-sKS" firstAttribute="leading" secondItem="vsy-QO-hyh" secondAttribute="trailing" constant="20" id="6JY-Ig-n5M"/>
                                                 <constraint firstItem="XTv-wL-sKS" firstAttribute="centerY" secondItem="nlB-WM-HLl" secondAttribute="centerY" id="DSN-ex-O5c"/>
                                                 <constraint firstItem="Iv2-Jd-GvG" firstAttribute="leading" secondItem="nlB-WM-HLl" secondAttribute="leadingMargin" id="IXj-xN-4nv"/>
                                                 <constraint firstItem="XTv-wL-sKS" firstAttribute="trailing" secondItem="nlB-WM-HLl" secondAttribute="trailingMargin" id="TpA-zX-xU2"/>

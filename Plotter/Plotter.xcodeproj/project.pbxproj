@@ -19,6 +19,7 @@
 		B8C0618E201EE77600268E44 /* ActivityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C0618D201EE77600268E44 /* ActivityListViewController.swift */; };
 		B8C06190201EF0B100268E44 /* StravaAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C0618F201EF0B100268E44 /* StravaAuth.swift */; };
 		B8C06192201FA38200268E44 /* StravaActivitiesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C06191201FA38200268E44 /* StravaActivitiesService.swift */; };
+		B8C7BD1520351AA100E484D0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C7BD1420351AA100E484D0 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		B8C0618D201EE77600268E44 /* ActivityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListViewController.swift; sourceTree = "<group>"; };
 		B8C0618F201EF0B100268E44 /* StravaAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StravaAuth.swift; sourceTree = "<group>"; };
 		B8C06191201FA38200268E44 /* StravaActivitiesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StravaActivitiesService.swift; sourceTree = "<group>"; };
+		B8C7BD1420351AA100E484D0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		F4FC1AD13916DDAFF36F733F /* Pods-Plotter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plotter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plotter/Pods-Plotter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 				B8C0618D201EE77600268E44 /* ActivityListViewController.swift */,
 				B834A6E3202E59ED00085025 /* ActivityDetailViewController.swift */,
 				B834A6E52030199700085025 /* WallpaperViewController.swift */,
+				B8C7BD1420351AA100E484D0 /* SettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				B8C06190201EF0B100268E44 /* StravaAuth.swift in Sources */,
 				B8BA310B201EAAE2006D4772 /* AppDelegate.swift in Sources */,
 				B834A6E62030199700085025 /* WallpaperViewController.swift in Sources */,
+				B8C7BD1520351AA100E484D0 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
