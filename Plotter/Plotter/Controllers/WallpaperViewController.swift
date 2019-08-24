@@ -37,6 +37,7 @@ class WallpaperViewController: UIViewController {
             titleLabel.text = activity.name
             distanceLabel.text = String(format: "%.1f mi", (activity.distance/1609.34))
         }
+        setUpLongPress()
         setupPathPanGesture()
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(toggleBackButton))
         self.view.addGestureRecognizer(tapGesture)
@@ -49,10 +50,40 @@ class WallpaperViewController: UIViewController {
         return true
     }
 
+    func setUpLongPress() {
+        let gesture = UILongPressGestureRecognizer(target: self, action: #selector(handleLongPressGesture(_:)))
+        self.view.addGestureRecognizer(gesture)
+    }
+
     func setupPathPanGesture() {
-        let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePathPanGesture))
+        let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePathPanGesture(_:)))
         pathView.addGestureRecognizer(panGesture)
 
+    }
+
+    @objc func handleLongPressGesture(_ gestureRecognizer : UILongPressGestureRecognizer) {
+        guard gestureRecognizer.view != nil else { return }
+        var image: UIImage? = nil
+        if gestureRecognizer.state == .began {
+            let view = self.view!
+            UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, UIScreen.main.scale)
+            var success = false
+            if let currentContext = UIGraphicsGetCurrentContext() {
+                success = true
+                view.layer.render(in: currentContext)
+                image = UIGraphicsGetImageFromCurrentImageContext()
+            } else {
+                print("Failed to screen cap")
+            }
+            UIGraphicsEndImageContext()
+
+            if let image = image, success {
+                UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+                print("Saved!")
+            } else {
+                print("Something went wrong")
+            }
+        }
     }
 
     @objc func handlePathPanGesture(_ gestureRecognizer : UIPanGestureRecognizer) {
@@ -69,6 +100,8 @@ class WallpaperViewController: UIViewController {
             let newCenter = CGPoint(x: initialCenter.x + translation.x, y: initialCenter.y + translation.y)
             panningView.center = newCenter
         }
+
+
     }
     
     @objc func toggleBackButton() {

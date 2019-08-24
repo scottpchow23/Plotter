@@ -62,7 +62,6 @@ class ActivityDetailViewController: UIViewController {
                     let location = MKCoordinateForMapPoint(mapPoints[point])
                     points.append(mapView.convert(location, toPointTo: view))
                 }
-                print(points)
                 path = UIBezierPath(points: points).cgPath
                 return line
             }
