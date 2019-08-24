@@ -18,6 +18,9 @@ class WallpaperViewController: UIViewController {
     var activity: StravaActivity?
     var path: CGPath?
     var initialHeight: CGFloat = 0
+
+    var initialCenter: CGPoint = CGPoint(x: 0, y: 0)
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,11 +32,12 @@ class WallpaperViewController: UIViewController {
             pathLayer.path = path
             pathView.layer.addSublayer(pathLayer)
         }
+        initialCenter = pathView.center
         if let activity = activity {
             titleLabel.text = activity.name
             distanceLabel.text = String(format: "%.1f mi", (activity.distance/1609.34))
         }
-//        initialHeight = backButton.frame.minY
+        setupPathPanGesture()
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(toggleBackButton))
         self.view.addGestureRecognizer(tapGesture)
     }
@@ -43,6 +47,28 @@ class WallpaperViewController: UIViewController {
     
     override var prefersStatusBarHidden: Bool {
         return true
+    }
+
+    func setupPathPanGesture() {
+        let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePathPanGesture))
+        pathView.addGestureRecognizer(panGesture)
+
+    }
+
+    @objc func handlePathPanGesture(_ gestureRecognizer : UIPanGestureRecognizer) {
+        guard gestureRecognizer.view != nil else { return }
+
+        let panningView = gestureRecognizer.view!
+        let translation = gestureRecognizer.translation(in: panningView.superview)
+
+        if gestureRecognizer.state == .began {
+            initialCenter = panningView.center
+        }
+
+        if gestureRecognizer.state != .cancelled {
+            let newCenter = CGPoint(x: initialCenter.x + translation.x, y: initialCenter.y + translation.y)
+            panningView.center = newCenter
+        }
     }
     
     @objc func toggleBackButton() {

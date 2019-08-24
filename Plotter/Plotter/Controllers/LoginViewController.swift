@@ -24,9 +24,7 @@ class LoginViewController: UIViewController {
     
     func checkStatus() {
         stravaLoginButton.isEnabled = false
-        print("Starting check")
         StravaAuth.checkToken(with: { (athlete) in
-            print("Got athelete?")
             if let athlete = athlete {
                 self.skipLogin(athlete: athlete)
             } else {

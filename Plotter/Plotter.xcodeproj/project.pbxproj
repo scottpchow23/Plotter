@@ -153,7 +153,6 @@
 				B8BA3104201EAAE2006D4772 /* Frameworks */,
 				B8BA3105201EAAE2006D4772 /* Resources */,
 				DE2693AFDC5EF5A3153C89A6 /* [CP] Embed Pods Frameworks */,
-				9C55D5A65F43379321687AC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,28 +211,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9C55D5A65F43379321687AC2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Plotter/Pods-Plotter-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DE2693AFDC5EF5A3153C89A6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Plotter/Pods-Plotter-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Plotter/Pods-Plotter-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/FRDStravaClient/FRDStravaClient.framework",
 				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
@@ -248,7 +232,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Plotter/Pods-Plotter-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plotter/Pods-Plotter-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DF2C413E9C919671BD22DC6A /* [CP] Check Pods Manifest.lock */ = {

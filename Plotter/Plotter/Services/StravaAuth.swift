@@ -52,7 +52,7 @@ class StravaAuth {
     }
     
     static func readFromDefaults() -> String? {
-        let accessToken = UserDefaults.standard.string(forKey: "accessToken")
+        let accessToken = UserDefaults.standard.string(forKey: ACCESS_TOKEN)
         return accessToken
     }
     
