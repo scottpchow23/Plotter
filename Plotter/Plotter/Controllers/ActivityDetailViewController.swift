@@ -24,12 +24,12 @@ class ActivityDetailViewController: UIViewController {
         self.title = "Framing"
         if let startLocation = activity?.startLocation {
             self.mapView.setCenter(startLocation, animated: true)
-            let visibleRect = MKCoordinateRegionMakeWithDistance(startLocation, CLLocationDistance((activity?.distance)!), CLLocationDistance((activity?.distance)!))
+            let visibleRect = MKCoordinateRegion.init(center: startLocation, latitudinalMeters: CLLocationDistance((activity?.distance)!), longitudinalMeters: CLLocationDistance((activity?.distance)!))
             let region = self.mapView.regionThatFits(visibleRect)
             self.mapView.setRegion(region, animated: true)
         }
         if let line = updatePath() {
-            mapView.add(line)
+            mapView.addOverlay(line)
         }
     }
     @IBAction func captureTUI(_ sender: Any) {
@@ -59,7 +59,7 @@ class ActivityDetailViewController: UIViewController {
                 let mapPoints = line.points()
                 var points = [CGPoint]()
                 for point in 0..<line.pointCount {
-                    let location = MKCoordinateForMapPoint(mapPoints[point])
+                    let location = mapPoints[point].coordinate
                     points.append(mapView.convert(location, toPointTo: view))
                 }
                 path = UIBezierPath(points: points).cgPath

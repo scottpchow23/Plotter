@@ -29,7 +29,7 @@ class ActivityListViewController: UIViewController {
     func tableViewSetup() {
         tableView.dataSource = self
         tableView.delegate = self
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 50
     }
     @IBAction func logoutTUI(_ sender: Any) {

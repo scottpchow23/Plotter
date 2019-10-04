@@ -20,6 +20,7 @@
 		B8C06190201EF0B100268E44 /* StravaAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C0618F201EF0B100268E44 /* StravaAuth.swift */; };
 		B8C06192201FA38200268E44 /* StravaActivitiesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C06191201FA38200268E44 /* StravaActivitiesService.swift */; };
 		B8C7BD1520351AA100E484D0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C7BD1420351AA100E484D0 /* SettingsViewController.swift */; };
+		B8E5D6692313373E00BB316A /* PreAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E5D6682313373E00BB316A /* PreAuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		B8C0618F201EF0B100268E44 /* StravaAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StravaAuth.swift; sourceTree = "<group>"; };
 		B8C06191201FA38200268E44 /* StravaActivitiesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StravaActivitiesService.swift; sourceTree = "<group>"; };
 		B8C7BD1420351AA100E484D0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B8E5D6682313373E00BB316A /* PreAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreAuthViewController.swift; sourceTree = "<group>"; };
 		F4FC1AD13916DDAFF36F733F /* Pods-Plotter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plotter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plotter/Pods-Plotter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 				B834A6E3202E59ED00085025 /* ActivityDetailViewController.swift */,
 				B834A6E52030199700085025 /* WallpaperViewController.swift */,
 				B8C7BD1420351AA100E484D0 /* SettingsViewController.swift */,
+				B8E5D6682313373E00BB316A /* PreAuthViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				B84147BF202D6A9100130A4A /* ActivityTableViewCell.swift in Sources */,
 				B8BA311D201EBB1B006D4772 /* LoginViewController.swift in Sources */,
 				B8C06190201EF0B100268E44 /* StravaAuth.swift in Sources */,
+				B8E5D6692313373E00BB316A /* PreAuthViewController.swift in Sources */,
 				B8BA310B201EAAE2006D4772 /* AppDelegate.swift in Sources */,
 				B834A6E62030199700085025 /* WallpaperViewController.swift in Sources */,
 				B8C7BD1520351AA100E484D0 /* SettingsViewController.swift in Sources */,
@@ -414,7 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.scottpchow.Plotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -432,7 +436,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.scottpchow.Plotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

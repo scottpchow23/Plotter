@@ -15,14 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 //        let config = StravaConfig(clientId: 22970, clientSecret: "4ddee4f49fa62bfd7d88e2b129ab283114b1c72c", redirectUri: "plotter://com.scottpchow.Plotter/authorization")
         FRDStravaClient.sharedInstance().initialize(withClientId: 22970, clientSecret: "4ddee4f49fa62bfd7d88e2b129ab283114b1c72c")
         
         return true
     }
     
-    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         print("URL scheme: \(String(describing: url.scheme))")
         print("URL: \(url.absoluteString)")
         if url.absoluteString.hasPrefix("plotter://com.scottpchow.Plotter/authorization") {
